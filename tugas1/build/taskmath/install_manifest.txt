@@ -1,0 +1,17 @@
+/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas1/install/taskmath/lib/taskmath/talker
+/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas1/install/taskmath/lib/taskmath/listener
+/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas1/install/taskmath/share/ament_index/resource_index/package_run_dependencies/taskmath
+/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas1/install/taskmath/share/ament_index/resource_index/parent_prefix_path/taskmath
+/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas1/install/taskmath/share/taskmath/environment/ament_prefix_path.sh
+/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas1/install/taskmath/share/taskmath/environment/ament_prefix_path.dsv
+/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas1/install/taskmath/share/taskmath/environment/path.sh
+/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas1/install/taskmath/share/taskmath/environment/path.dsv
+/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas1/install/taskmath/share/taskmath/local_setup.bash
+/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas1/install/taskmath/share/taskmath/local_setup.sh
+/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas1/install/taskmath/share/taskmath/local_setup.zsh
+/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas1/install/taskmath/share/taskmath/local_setup.dsv
+/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas1/install/taskmath/share/taskmath/package.dsv
+/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas1/install/taskmath/share/ament_index/resource_index/packages/taskmath
+/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas1/install/taskmath/share/taskmath/cmake/taskmathConfig.cmake
+/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas1/install/taskmath/share/taskmath/cmake/taskmathConfig-version.cmake
+/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas1/install/taskmath/share/taskmath/package.xml

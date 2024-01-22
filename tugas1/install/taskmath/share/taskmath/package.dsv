@@ -1,0 +1,8 @@
+source;share/taskmath/hook/cmake_prefix_path.ps1
+source;share/taskmath/hook/cmake_prefix_path.dsv
+source;share/taskmath/hook/cmake_prefix_path.sh
+source;share/taskmath/local_setup.bash
+source;share/taskmath/local_setup.dsv
+source;share/taskmath/local_setup.ps1
+source;share/taskmath/local_setup.sh
+source;share/taskmath/local_setup.zsh

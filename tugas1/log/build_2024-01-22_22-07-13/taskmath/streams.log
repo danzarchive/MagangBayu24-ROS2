@@ -1,0 +1,28 @@
+[0.080s] Invoking command in '/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas1/build/taskmath': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas1/build/taskmath -- -j4 -l4
+[0.303s] [35m[1mScanning dependencies of target talker[0m
+[0.328s] [ 50%] Built target listener
+[0.334s] [ 75%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o[0m
+[3.280s] [100%] [32m[1mLinking CXX executable talker[0m
+[3.418s] [100%] Built target talker
+[3.429s] Invoked command in '/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas1/build/taskmath' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas1/build/taskmath -- -j4 -l4
+[3.459s] Invoking command in '/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas1/build/taskmath': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas1/build/taskmath
+[3.470s] -- Install configuration: ""
+[3.471s] -- Installing: /home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas1/install/taskmath/lib/taskmath/talker
+[3.472s] -- Set runtime path of "/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas1/install/taskmath/lib/taskmath/talker" to ""
+[3.474s] -- Up-to-date: /home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas1/install/taskmath/lib/taskmath/listener
+[3.474s] -- Up-to-date: /home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas1/install/taskmath/share/ament_index/resource_index/package_run_dependencies/taskmath
+[3.475s] -- Up-to-date: /home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas1/install/taskmath/share/ament_index/resource_index/parent_prefix_path/taskmath
+[3.475s] -- Up-to-date: /home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas1/install/taskmath/share/taskmath/environment/ament_prefix_path.sh
+[3.475s] -- Up-to-date: /home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas1/install/taskmath/share/taskmath/environment/ament_prefix_path.dsv
+[3.475s] -- Up-to-date: /home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas1/install/taskmath/share/taskmath/environment/path.sh
+[3.475s] -- Up-to-date: /home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas1/install/taskmath/share/taskmath/environment/path.dsv
+[3.475s] -- Up-to-date: /home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas1/install/taskmath/share/taskmath/local_setup.bash
+[3.475s] -- Up-to-date: /home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas1/install/taskmath/share/taskmath/local_setup.sh
+[3.475s] -- Up-to-date: /home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas1/install/taskmath/share/taskmath/local_setup.zsh
+[3.475s] -- Up-to-date: /home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas1/install/taskmath/share/taskmath/local_setup.dsv
+[3.475s] -- Installing: /home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas1/install/taskmath/share/taskmath/package.dsv
+[3.476s] -- Up-to-date: /home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas1/install/taskmath/share/ament_index/resource_index/packages/taskmath
+[3.476s] -- Up-to-date: /home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas1/install/taskmath/share/taskmath/cmake/taskmathConfig.cmake
+[3.478s] -- Up-to-date: /home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas1/install/taskmath/share/taskmath/cmake/taskmathConfig-version.cmake
+[3.478s] -- Up-to-date: /home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas1/install/taskmath/share/taskmath/package.xml
+[3.480s] Invoked command in '/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas1/build/taskmath' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas1/build/taskmath

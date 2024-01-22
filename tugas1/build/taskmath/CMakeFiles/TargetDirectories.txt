@@ -1,0 +1,11 @@
+/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas1/build/taskmath/CMakeFiles/install/strip.dir
+/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas1/build/taskmath/CMakeFiles/install/local.dir
+/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas1/build/taskmath/CMakeFiles/edit_cache.dir
+/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas1/build/taskmath/CMakeFiles/test.dir
+/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas1/build/taskmath/CMakeFiles/install.dir
+/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas1/build/taskmath/CMakeFiles/list_install_components.dir
+/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas1/build/taskmath/CMakeFiles/rebuild_cache.dir
+/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas1/build/taskmath/CMakeFiles/listener.dir
+/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas1/build/taskmath/CMakeFiles/talker.dir
+/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas1/build/taskmath/CMakeFiles/taskmath_uninstall.dir
+/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas1/build/taskmath/CMakeFiles/uninstall.dir

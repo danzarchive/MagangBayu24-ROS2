@@ -1,0 +1,4 @@
+source;share/taskmath/local_setup.bash
+source;share/taskmath/local_setup.dsv
+source;share/taskmath/local_setup.sh
+source;share/taskmath/local_setup.zsh

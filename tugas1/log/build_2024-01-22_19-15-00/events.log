@@ -1,0 +1,159 @@
+[0.000000] (-) TimerEvent: {}
+[0.000350] (taskmath) JobQueued: {'identifier': 'taskmath', 'dependencies': OrderedDict()}
+[0.000750] (taskmath) JobStarted: {'identifier': 'taskmath'}
+[0.072930] (taskmath) JobProgress: {'identifier': 'taskmath', 'progress': 'cmake'}
+[0.074617] (taskmath) JobProgress: {'identifier': 'taskmath', 'progress': 'build'}
+[0.075106] (taskmath) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas1/build/taskmath', '--', '-j4', '-l4'], 'cwd': '/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas1/build/taskmath', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'danscarryus'), ('SSH_AGENT_PID', '1877'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/danscarryus'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1689'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas1/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'danscarryus'), ('JOURNAL_STREAM', '9:42514'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'danscarryus'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntuonm2:@/tmp/.ICE-unix/1931,unix/ubuntuonm2:/tmp/.ICE-unix/1931'), ('INVOCATION_ID', 'e1e6829060524177b02252a71b681b5b'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b736c12a_43ad_427a_ad40_9fc8d48d5b74'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.724'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas1/install/taskmath:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas1/build/taskmath'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas1/install/taskmath:/opt/ros/foxy')]), 'shell': False}
+[0.100336] (-) TimerEvent: {}
+[0.200719] (-) TimerEvent: {}
+[0.224438] (taskmath) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.277536] (taskmath) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.300857] (-) TimerEvent: {}
+[0.401216] (-) TimerEvent: {}
+[0.485103] (taskmath) StdoutLine: {'line': b'-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[0.501406] (-) TimerEvent: {}
+[0.569579] (taskmath) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.572817] (taskmath) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.602077] (-) TimerEvent: {}
+[0.702713] (-) TimerEvent: {}
+[0.805465] (-) TimerEvent: {}
+[0.913089] (-) TimerEvent: {}
+[1.019237] (-) TimerEvent: {}
+[1.121603] (-) TimerEvent: {}
+[1.172892] (taskmath) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.221922] (-) TimerEvent: {}
+[1.229976] (taskmath) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[1.236182] (taskmath) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.322320] (-) TimerEvent: {}
+[1.358716] (taskmath) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[1.423464] (-) TimerEvent: {}
+[1.498060] (taskmath) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[1.498898] (taskmath) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.499004] (taskmath) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[1.499050] (taskmath) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.499654] (taskmath) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[1.499715] (taskmath) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[1.500332] (taskmath) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.501160] (taskmath) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.501257] (taskmath) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.501654] (taskmath) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.507351] (taskmath) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.523543] (-) TimerEvent: {}
+[1.557563] (taskmath) StdoutLine: {'line': b'-- Generating done\n'}
+[1.560914] (taskmath) StdoutLine: {'line': b'-- Build files have been written to: /home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas1/build/taskmath\n'}
+[1.599890] (taskmath) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target listener\x1b[0m\n'}
+[1.627776] (-) TimerEvent: {}
+[1.686437] (taskmath) StdoutLine: {'line': b'[ 50%] Built target talker\n'}
+[1.725836] (-) TimerEvent: {}
+[1.826672] (-) TimerEvent: {}
+[1.899026] (taskmath) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o\x1b[0m\n'}
+[1.926991] (-) TimerEvent: {}
+[2.027354] (-) TimerEvent: {}
+[2.129694] (-) TimerEvent: {}
+[2.230344] (-) TimerEvent: {}
+[2.331160] (-) TimerEvent: {}
+[2.431391] (-) TimerEvent: {}
+[2.531796] (-) TimerEvent: {}
+[2.632312] (-) TimerEvent: {}
+[2.733460] (-) TimerEvent: {}
+[2.834242] (-) TimerEvent: {}
+[2.934652] (-) TimerEvent: {}
+[3.036000] (-) TimerEvent: {}
+[3.136923] (-) TimerEvent: {}
+[3.238331] (-) TimerEvent: {}
+[3.338995] (-) TimerEvent: {}
+[3.439407] (-) TimerEvent: {}
+[3.540580] (-) TimerEvent: {}
+[3.641794] (-) TimerEvent: {}
+[3.743180] (-) TimerEvent: {}
+[3.843627] (-) TimerEvent: {}
+[3.948822] (-) TimerEvent: {}
+[4.049920] (-) TimerEvent: {}
+[4.150634] (-) TimerEvent: {}
+[4.252411] (-) TimerEvent: {}
+[4.353281] (-) TimerEvent: {}
+[4.453646] (-) TimerEvent: {}
+[4.555354] (-) TimerEvent: {}
+[4.656092] (-) TimerEvent: {}
+[4.760457] (-) TimerEvent: {}
+[4.861145] (-) TimerEvent: {}
+[4.962385] (-) TimerEvent: {}
+[5.063096] (-) TimerEvent: {}
+[5.164029] (-) TimerEvent: {}
+[5.269091] (-) TimerEvent: {}
+[5.373129] (-) TimerEvent: {}
+[5.473593] (-) TimerEvent: {}
+[5.574641] (-) TimerEvent: {}
+[5.675043] (-) TimerEvent: {}
+[5.775937] (-) TimerEvent: {}
+[5.876498] (-) TimerEvent: {}
+[5.977741] (-) TimerEvent: {}
+[6.078307] (-) TimerEvent: {}
+[6.179099] (-) TimerEvent: {}
+[6.281376] (-) TimerEvent: {}
+[6.383273] (-) TimerEvent: {}
+[6.483540] (-) TimerEvent: {}
+[6.583967] (-) TimerEvent: {}
+[6.686010] (-) TimerEvent: {}
+[6.786592] (-) TimerEvent: {}
+[6.887568] (-) TimerEvent: {}
+[6.988398] (-) TimerEvent: {}
+[7.089356] (-) TimerEvent: {}
+[7.190526] (-) TimerEvent: {}
+[7.292123] (-) TimerEvent: {}
+[7.393188] (-) TimerEvent: {}
+[7.494517] (-) TimerEvent: {}
+[7.595256] (-) TimerEvent: {}
+[7.697268] (-) TimerEvent: {}
+[7.797854] (-) TimerEvent: {}
+[7.898733] (-) TimerEvent: {}
+[7.999177] (-) TimerEvent: {}
+[8.099574] (-) TimerEvent: {}
+[8.200300] (-) TimerEvent: {}
+[8.302300] (-) TimerEvent: {}
+[8.403338] (-) TimerEvent: {}
+[8.503966] (-) TimerEvent: {}
+[8.604421] (-) TimerEvent: {}
+[8.704978] (-) TimerEvent: {}
+[8.810272] (-) TimerEvent: {}
+[8.911021] (-) TimerEvent: {}
+[9.012991] (-) TimerEvent: {}
+[9.113542] (-) TimerEvent: {}
+[9.215663] (-) TimerEvent: {}
+[9.316039] (-) TimerEvent: {}
+[9.417627] (-) TimerEvent: {}
+[9.518593] (-) TimerEvent: {}
+[9.524325] (taskmath) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable listener\x1b[0m\n'}
+[9.618895] (-) TimerEvent: {}
+[9.719754] (-) TimerEvent: {}
+[9.759515] (taskmath) StdoutLine: {'line': b'[100%] Built target listener\n'}
+[9.782034] (taskmath) CommandEnded: {'returncode': 0}
+[9.810461] (taskmath) JobProgress: {'identifier': 'taskmath', 'progress': 'install'}
+[9.816782] (taskmath) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas1/build/taskmath'], 'cwd': '/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas1/build/taskmath', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'danscarryus'), ('SSH_AGENT_PID', '1877'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/danscarryus'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1689'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas1/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'danscarryus'), ('JOURNAL_STREAM', '9:42514'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'danscarryus'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntuonm2:@/tmp/.ICE-unix/1931,unix/ubuntuonm2:/tmp/.ICE-unix/1931'), ('INVOCATION_ID', 'e1e6829060524177b02252a71b681b5b'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b736c12a_43ad_427a_ad40_9fc8d48d5b74'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.724'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas1/install/taskmath:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas1/build/taskmath'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas1/install/taskmath:/opt/ros/foxy')]), 'shell': False}
+[9.819787] (-) TimerEvent: {}
+[9.823271] (taskmath) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[9.826622] (taskmath) StdoutLine: {'line': b'-- Up-to-date: /home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas1/install/taskmath/lib/taskmath/talker\n'}
+[9.826762] (taskmath) StdoutLine: {'line': b'-- Installing: /home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas1/install/taskmath/lib/taskmath/listener\n'}
+[9.827914] (taskmath) StdoutLine: {'line': b'-- Set runtime path of "/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas1/install/taskmath/lib/taskmath/listener" to ""\n'}
+[9.829412] (taskmath) StdoutLine: {'line': b'-- Up-to-date: /home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas1/install/taskmath/share/ament_index/resource_index/package_run_dependencies/taskmath\n'}
+[9.829571] (taskmath) StdoutLine: {'line': b'-- Up-to-date: /home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas1/install/taskmath/share/ament_index/resource_index/parent_prefix_path/taskmath\n'}
+[9.831117] (taskmath) StdoutLine: {'line': b'-- Up-to-date: /home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas1/install/taskmath/share/taskmath/environment/ament_prefix_path.sh\n'}
+[9.831223] (taskmath) StdoutLine: {'line': b'-- Installing: /home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas1/install/taskmath/share/taskmath/environment/ament_prefix_path.dsv\n'}
+[9.831464] (taskmath) StdoutLine: {'line': b'-- Up-to-date: /home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas1/install/taskmath/share/taskmath/environment/path.sh\n'}
+[9.831573] (taskmath) StdoutLine: {'line': b'-- Installing: /home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas1/install/taskmath/share/taskmath/environment/path.dsv\n'}
+[9.831713] (taskmath) StdoutLine: {'line': b'-- Up-to-date: /home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas1/install/taskmath/share/taskmath/local_setup.bash\n'}
+[9.831791] (taskmath) StdoutLine: {'line': b'-- Up-to-date: /home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas1/install/taskmath/share/taskmath/local_setup.sh\n'}
+[9.831882] (taskmath) StdoutLine: {'line': b'-- Up-to-date: /home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas1/install/taskmath/share/taskmath/local_setup.zsh\n'}
+[9.831914] (taskmath) StdoutLine: {'line': b'-- Installing: /home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas1/install/taskmath/share/taskmath/local_setup.dsv\n'}
+[9.832215] (taskmath) StdoutLine: {'line': b'-- Installing: /home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas1/install/taskmath/share/taskmath/package.dsv\n'}
+[9.832416] (taskmath) StdoutLine: {'line': b'-- Up-to-date: /home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas1/install/taskmath/share/ament_index/resource_index/packages/taskmath\n'}
+[9.832635] (taskmath) StdoutLine: {'line': b'-- Up-to-date: /home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas1/install/taskmath/share/taskmath/cmake/taskmathConfig.cmake\n'}
+[9.832674] (taskmath) StdoutLine: {'line': b'-- Up-to-date: /home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas1/install/taskmath/share/taskmath/cmake/taskmathConfig-version.cmake\n'}
+[9.832961] (taskmath) StdoutLine: {'line': b'-- Up-to-date: /home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas1/install/taskmath/share/taskmath/package.xml\n'}
+[9.834422] (taskmath) CommandEnded: {'returncode': 0}
+[9.921290] (-) TimerEvent: {}
+[10.021942] (-) TimerEvent: {}
+[10.122377] (-) TimerEvent: {}
+[10.223650] (-) TimerEvent: {}
+[10.289842] (taskmath) JobEnded: {'identifier': 'taskmath', 'rc': 0}
+[10.290640] (-) EventReactorShutdown: {}
