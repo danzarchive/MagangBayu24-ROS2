@@ -2,8 +2,8 @@
 # Magang Bayucaraka 2024 - ROS2
 
 **Identitas Peserta**\
-Nama    : \
-NRP     : 
+Nama    : Danish Rafie Ekaputra\
+NRP     : 5052231024
 
 Pengumpulan tugas dilakukan dengan cara seperti berikut:
 
