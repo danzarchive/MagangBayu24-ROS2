@@ -1,0 +1,4 @@
+[01m[K/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/src/pubs_and_subs/src/publisher-2.cpp:[m[K In member function ‘[01m[Kvoid MyPublisher2::timer_callback()[m[K’:
+[01m[K/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/src/pubs_and_subs/src/publisher-2.cpp:25:7:[m[K [01;35m[Kwarning: [m[Kstatement has no effect [[01;35m[K-Wunused-value[m[K]
+   25 |       [01;35m[Kstate[m[K;
+      |       [01;35m[K^~~~~[m[K

@@ -1,0 +1,12 @@
+/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/build/pubs_and_subs/CMakeFiles/install/strip.dir
+/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/build/pubs_and_subs/CMakeFiles/edit_cache.dir
+/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/build/pubs_and_subs/CMakeFiles/test.dir
+/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/build/pubs_and_subs/CMakeFiles/install.dir
+/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/build/pubs_and_subs/CMakeFiles/list_install_components.dir
+/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/build/pubs_and_subs/CMakeFiles/rebuild_cache.dir
+/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/build/pubs_and_subs/CMakeFiles/listener.dir
+/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/build/pubs_and_subs/CMakeFiles/talker2.dir
+/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/build/pubs_and_subs/CMakeFiles/install/local.dir
+/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/build/pubs_and_subs/CMakeFiles/talker1.dir
+/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/build/pubs_and_subs/CMakeFiles/pubs_and_subs_uninstall.dir
+/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/build/pubs_and_subs/CMakeFiles/uninstall.dir

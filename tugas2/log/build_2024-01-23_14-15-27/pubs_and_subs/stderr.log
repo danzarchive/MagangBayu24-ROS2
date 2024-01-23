@@ -1,0 +1,48 @@
+[01m[K/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/src/pubs_and_subs/src/publisher-1.cpp:[m[K In constructor ‘[01m[KMyPublisher1::MyPublisher1()[m[K’:
+[01m[K/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/src/pubs_and_subs/src/publisher-1.cpp:40:59:[m[K [01;31m[Kerror: [m[K‘[01m[KMyPublisher[m[K’ has not been declared
+   40 |     timer_ = this->create_wall_timer(interval, std::bind(&[01;31m[KMyPublisher[m[K::timer_callback, this));
+      |                                                           [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/src/pubs_and_subs/src/publisher-2.cpp:[m[K In constructor ‘[01m[KMyPublisher2::MyPublisher2()[m[K’:
+[01m[K/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/src/pubs_and_subs/src/publisher-2.cpp:40:59:[m[K [01;31m[Kerror: [m[K‘[01m[KMyPublisher[m[K’ has not been declared
+   40 |     timer_ = this->create_wall_timer(interval, std::bind(&[01;31m[KMyPublisher[m[K::timer_callback, this));
+      |                                                           [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/src/pubs_and_subs/src/publisher-1.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/src/pubs_and_subs/src/publisher-1.cpp:47:33:[m[K [01;31m[Kerror: [m[K‘[01m[KMyPublisher[m[K’ was not declared in this scope; did you mean ‘[01m[KMyPublisher1[m[K’?
+   47 |   rclcpp::spin(std::make_shared<[01;31m[KMyPublisher[m[K>());
+      |                                 [01;31m[K^~~~~~~~~~~[m[K
+      |                                 [32m[KMyPublisher1[m[K
+[01m[K/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/src/pubs_and_subs/src/publisher-1.cpp:47:46:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmake_shared<<expression error> >()[m[K’
+   47 |   rclcpp::spin(std::make_shared<MyPublisher>([01;31m[K)[m[K);
+      |                                              [01;31m[K^[m[K
+In file included from [01m[K/usr/include/c++/9/memory:81[m[K,
+                 from [01m[K/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/src/pubs_and_subs/src/publisher-1.cpp:2[m[K:
+[01m[K/usr/include/c++/9/bits/shared_ptr.h:714:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class ... _Args> std::shared_ptr<_Tp> std::make_shared(_Args&& ...)[m[K’
+  714 |     [01;36m[Kmake_shared[m[K(_Args&&... __args)
+      |     [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/9/bits/shared_ptr.h:714:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/src/pubs_and_subs/src/publisher-1.cpp:47:46:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   47 |   rclcpp::spin(std::make_shared<MyPublisher>([01;31m[K)[m[K);
+      |                                              [01;31m[K^[m[K
+[01m[K/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/src/pubs_and_subs/src/publisher-2.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/src/pubs_and_subs/src/publisher-2.cpp:47:33:[m[K [01;31m[Kerror: [m[K‘[01m[KMyPublisher[m[K’ was not declared in this scope; did you mean ‘[01m[KMyPublisher2[m[K’?
+   47 |   rclcpp::spin(std::make_shared<[01;31m[KMyPublisher[m[K>());
+      |                                 [01;31m[K^~~~~~~~~~~[m[K
+      |                                 [32m[KMyPublisher2[m[K
+[01m[K/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/src/pubs_and_subs/src/publisher-2.cpp:47:46:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmake_shared<<expression error> >()[m[K’
+   47 |   rclcpp::spin(std::make_shared<MyPublisher>([01;31m[K)[m[K);
+      |                                              [01;31m[K^[m[K
+In file included from [01m[K/usr/include/c++/9/memory:81[m[K,
+                 from [01m[K/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/src/pubs_and_subs/src/publisher-2.cpp:2[m[K:
+[01m[K/usr/include/c++/9/bits/shared_ptr.h:714:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class ... _Args> std::shared_ptr<_Tp> std::make_shared(_Args&& ...)[m[K’
+  714 |     [01;36m[Kmake_shared[m[K(_Args&&... __args)
+      |     [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/9/bits/shared_ptr.h:714:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/src/pubs_and_subs/src/publisher-2.cpp:47:46:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   47 |   rclcpp::spin(std::make_shared<MyPublisher>([01;31m[K)[m[K);
+      |                                              [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/talker1.dir/build.make:63: CMakeFiles/talker1.dir/src/publisher-1.cpp.o] Error 1
+make[2]: *** [CMakeFiles/talker2.dir/build.make:63: CMakeFiles/talker2.dir/src/publisher-2.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:136: CMakeFiles/talker1.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make[1]: *** [CMakeFiles/Makefile2:109: CMakeFiles/talker2.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

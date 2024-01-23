@@ -1,0 +1,13 @@
+[0.079s] Invoking command in '/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/build/pubs_and_subs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/build/pubs_and_subs -- -j4 -l4
+[0.131s] [35m[1mScanning dependencies of target talker2[0m
+[0.153s] [ 33%] Built target talker1
+[0.161s] [ 66%] Built target listener
+[0.161s] [ 83%] [32mBuilding CXX object CMakeFiles/talker2.dir/src/publisher-2.cpp.o[0m
+[1.259s] [01m[K/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/src/pubs_and_subs/src/publisher-2.cpp:[m[K In member function ‘[01m[Kvoid MyPublisher2::timer_callback()[m[K’:
+[1.259s] [01m[K/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/src/pubs_and_subs/src/publisher-2.cpp:24:19:[m[K [01;31m[Kerror: [m[K‘[01m[Kdata[m[K’ was not declared in this scope
+[1.260s]    24 |     if (state = 3*[01;31m[Kdata[m[K) {
+[1.260s]       |                   [01;31m[K^~~~[m[K
+[1.851s] make[2]: *** [CMakeFiles/talker2.dir/build.make:63: CMakeFiles/talker2.dir/src/publisher-2.cpp.o] Error 1
+[1.851s] make[1]: *** [CMakeFiles/Makefile2:109: CMakeFiles/talker2.dir/all] Error 2
+[1.852s] make: *** [Makefile:141: all] Error 2
+[1.860s] Invoked command in '/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/build/pubs_and_subs' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/build/pubs_and_subs -- -j4 -l4

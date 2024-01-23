@@ -1,0 +1,61 @@
+[0.000000] (-) TimerEvent: {}
+[0.000539] (pubs_and_subs) JobQueued: {'identifier': 'pubs_and_subs', 'dependencies': OrderedDict()}
+[0.000586] (pubs_and_subs) JobStarted: {'identifier': 'pubs_and_subs'}
+[0.065800] (pubs_and_subs) JobProgress: {'identifier': 'pubs_and_subs', 'progress': 'cmake'}
+[0.066935] (pubs_and_subs) JobProgress: {'identifier': 'pubs_and_subs', 'progress': 'build'}
+[0.067857] (pubs_and_subs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/build/pubs_and_subs', '--', '-j4', '-l4'], 'cwd': '/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/build/pubs_and_subs', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'danscarryus'), ('SSH_AGENT_PID', '1909'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/danscarryus'), ('OLDPWD', '/home/danscarryus/InternRos2/MagangBayu24-ROS2'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1718'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'danscarryus'), ('JOURNAL_STREAM', '9:41335'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'danscarryus'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntuonm2:@/tmp/.ICE-unix/1963,unix/ubuntuonm2:/tmp/.ICE-unix/1963'), ('INVOCATION_ID', 'e102ca5eb5e0435db54f4b9a49c85edb'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/d66285a5_fd12_4674_9702_04f6fd6222e6'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.78'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/install/pubs_and_subs:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/build/pubs_and_subs'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/install/pubs_and_subs:/opt/ros/foxy')]), 'shell': False}
+[0.099862] (-) TimerEvent: {}
+[0.103694] (pubs_and_subs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target listener\x1b[0m\n'}
+[0.117594] (pubs_and_subs) StdoutLine: {'line': b'[ 33%] Built target talker2\n'}
+[0.121911] (pubs_and_subs) StdoutLine: {'line': b'[ 66%] Built target talker1\n'}
+[0.121990] (pubs_and_subs) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber-main.cpp.o\x1b[0m\n'}
+[0.199947] (-) TimerEvent: {}
+[0.300250] (-) TimerEvent: {}
+[0.400599] (-) TimerEvent: {}
+[0.501506] (-) TimerEvent: {}
+[0.602009] (-) TimerEvent: {}
+[0.705312] (-) TimerEvent: {}
+[0.808315] (-) TimerEvent: {}
+[0.909185] (-) TimerEvent: {}
+[1.009549] (-) TimerEvent: {}
+[1.110558] (-) TimerEvent: {}
+[1.200764] (pubs_and_subs) StderrLine: {'line': b'\x1b[01m\x1b[K/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/src/pubs_and_subs/src/subscriber-main.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KMySubscriber::MySubscriber()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.201562] (pubs_and_subs) StderrLine: {'line': b'\x1b[01m\x1b[K/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/src/pubs_and_subs/src/subscriber-main.cpp:18:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id before \xe2\x80\x98\x1b[01m\x1b[K=\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[1.201649] (pubs_and_subs) StderrLine: {'line': b'   18 |     timer_t \x1b[01;31m\x1b[K=\x1b[m\x1b[K this->create_wall_timer(std::chrono::seconds(5), std::bind(&MySubscriber::timer_callback, timer_t));\n'}
+[1.201717] (pubs_and_subs) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.205525] (pubs_and_subs) StderrLine: {'line': b'\x1b[01m\x1b[K/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/src/pubs_and_subs/src/subscriber-main.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid MySubscriber::topic_callback_1(std_msgs::msg::String_<std::allocator<void> >::SharedPtr) const\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.205584] (pubs_and_subs) StderrLine: {'line': b'\x1b[01m\x1b[K/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/src/pubs_and_subs/src/subscriber-main.cpp:26:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpub1_received_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.205610] (pubs_and_subs) StderrLine: {'line': b'   26 |       \x1b[01;31m\x1b[Kpub1_received_\x1b[m\x1b[K = true;\n'}
+[1.205634] (pubs_and_subs) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.207471] (pubs_and_subs) StderrLine: {'line': b'\x1b[01m\x1b[K/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/src/pubs_and_subs/src/subscriber-main.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid MySubscriber::topic_callback_2(std_msgs::msg::String_<std::allocator<void> >::SharedPtr) const\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.207518] (pubs_and_subs) StderrLine: {'line': b'\x1b[01m\x1b[K/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/src/pubs_and_subs/src/subscriber-main.cpp:34:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpub2_received_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.207543] (pubs_and_subs) StderrLine: {'line': b'   34 |       \x1b[01;31m\x1b[Kpub2_received_\x1b[m\x1b[K = true;\n'}
+[1.207566] (pubs_and_subs) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.209223] (pubs_and_subs) StderrLine: {'line': b'\x1b[01m\x1b[K/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/src/pubs_and_subs/src/subscriber-main.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid MySubscriber::timer_callback() const\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.209323] (pubs_and_subs) StderrLine: {'line': b'\x1b[01m\x1b[K/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/src/pubs_and_subs/src/subscriber-main.cpp:40:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpub1_received_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.209354] (pubs_and_subs) StderrLine: {'line': b'   40 |     if (\x1b[01;31m\x1b[Kpub1_received_\x1b[m\x1b[K && pub2_received_)\n'}
+[1.209399] (pubs_and_subs) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.210618] (-) TimerEvent: {}
+[1.211080] (pubs_and_subs) StderrLine: {'line': b'\x1b[01m\x1b[K/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/src/pubs_and_subs/src/subscriber-main.cpp:40:27:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpub2_received_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.211147] (pubs_and_subs) StderrLine: {'line': b'   40 |     if (pub1_received_ && \x1b[01;31m\x1b[Kpub2_received_\x1b[m\x1b[K)\n'}
+[1.211178] (pubs_and_subs) StderrLine: {'line': b'      |                           \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.213235] (pubs_and_subs) StderrLine: {'line': b'\x1b[01m\x1b[K/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/src/pubs_and_subs/src/subscriber-main.cpp:49:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpub1_received_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.213282] (pubs_and_subs) StderrLine: {'line': b'   49 |     \x1b[01;31m\x1b[Kpub1_received_\x1b[m\x1b[K = false;\n'}
+[1.213306] (pubs_and_subs) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.215064] (pubs_and_subs) StderrLine: {'line': b'\x1b[01m\x1b[K/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/src/pubs_and_subs/src/subscriber-main.cpp:50:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpub2_received_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.215148] (pubs_and_subs) StderrLine: {'line': b'   50 |     \x1b[01;31m\x1b[Kpub2_received_\x1b[m\x1b[K = false;\n'}
+[1.215204] (pubs_and_subs) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.312363] (-) TimerEvent: {}
+[1.413322] (-) TimerEvent: {}
+[1.518059] (-) TimerEvent: {}
+[1.618668] (-) TimerEvent: {}
+[1.719021] (-) TimerEvent: {}
+[1.819285] (-) TimerEvent: {}
+[1.922044] (-) TimerEvent: {}
+[1.924869] (pubs_and_subs) StderrLine: {'line': b'make[2]: *** [CMakeFiles/listener.dir/build.make:63: CMakeFiles/listener.dir/src/subscriber-main.cpp.o] Error 1\n'}
+[1.925443] (pubs_and_subs) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:82: CMakeFiles/listener.dir/all] Error 2\n'}
+[1.925917] (pubs_and_subs) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[1.933392] (pubs_and_subs) CommandEnded: {'returncode': 2}
+[2.025338] (-) TimerEvent: {}
+[2.044890] (pubs_and_subs) JobEnded: {'identifier': 'pubs_and_subs', 'rc': 2}
+[2.055610] (-) EventReactorShutdown: {}

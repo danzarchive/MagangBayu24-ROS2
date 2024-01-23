@@ -1,0 +1,18 @@
+[0.079s] Invoking command in '/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/build/pubs_and_subs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/build/pubs_and_subs -- -j4 -l4
+[0.135s] [35m[1mScanning dependencies of target listener[0m
+[0.156s] [ 33%] Built target talker2
+[0.156s] [ 50%] [32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber-main.cpp.o[0m
+[0.160s] [ 83%] Built target talker1
+[1.519s] [01m[K/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/src/pubs_and_subs/src/subscriber-main.cpp:[m[K In member function ‘[01m[Kvoid MinimalSubscriber::timer_callback()[m[K’:
+[1.520s] [01m[K/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/src/pubs_and_subs/src/subscriber-main.cpp:51:36:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing SharedPtr = class std::shared_ptr<rclcpp::TimerBase>[m[K’ {aka ‘[01m[Kclass std::shared_ptr<rclcpp::TimerBase>[m[K’} has no member named ‘[01m[Kget_count[m[K’; did you mean ‘[01m[Kuse_count[m[K’?
+[1.520s]    51 |     ss << "pub1 (detik-" << timer_.[01;31m[Kget_count[m[K() << ") = " << std::boolalpha << latest_pub1_state << " | ";
+[1.520s]       |                                    [01;31m[K^~~~~~~~~[m[K
+[1.520s]       |                                    [32m[Kuse_count[m[K
+[1.520s] [01m[K/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/src/pubs_and_subs/src/subscriber-main.cpp:52:36:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing SharedPtr = class std::shared_ptr<rclcpp::TimerBase>[m[K’ {aka ‘[01m[Kclass std::shared_ptr<rclcpp::TimerBase>[m[K’} has no member named ‘[01m[Kget_count[m[K’; did you mean ‘[01m[Kuse_count[m[K’?
+[1.520s]    52 |     ss << "pub2 (detik-" << timer_.[01;31m[Kget_count[m[K() << ") = " << std::boolalpha << latest_pub2_state << " -> ";
+[1.520s]       |                                    [01;31m[K^~~~~~~~~[m[K
+[1.520s]       |                                    [32m[Kuse_count[m[K
+[2.764s] make[2]: *** [CMakeFiles/listener.dir/build.make:63: CMakeFiles/listener.dir/src/subscriber-main.cpp.o] Error 1
+[2.764s] make[1]: *** [CMakeFiles/Makefile2:82: CMakeFiles/listener.dir/all] Error 2
+[2.765s] make: *** [Makefile:141: all] Error 2
+[2.773s] Invoked command in '/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/build/pubs_and_subs' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/build/pubs_and_subs -- -j4 -l4

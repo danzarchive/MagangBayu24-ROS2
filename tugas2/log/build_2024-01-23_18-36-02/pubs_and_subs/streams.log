@@ -1,0 +1,38 @@
+[0.072s] Invoking command in '/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/build/pubs_and_subs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/build/pubs_and_subs -- -j4 -l4
+[0.132s] [35m[1mScanning dependencies of target listener[0m
+[0.132s] [35m[1mScanning dependencies of target talker2[0m
+[0.135s] [35m[1mScanning dependencies of target talker1[0m
+[0.168s] [ 16%] [32mBuilding CXX object CMakeFiles/talker1.dir/src/publisher-1.cpp.o[0m
+[0.169s] [ 33%] [32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber-main.cpp.o[0m
+[0.173s] [ 50%] [32mBuilding CXX object CMakeFiles/talker2.dir/src/publisher-2.cpp.o[0m
+[3.833s] [ 83%] [32m[1mLinking CXX executable talker2[0m
+[3.834s] [ 83%] [32m[1mLinking CXX executable talker1[0m
+[4.094s] [ 83%] Built target talker2
+[4.095s] [ 83%] Built target talker1
+[5.044s] [100%] [32m[1mLinking CXX executable listener[0m
+[5.227s] [100%] Built target listener
+[5.258s] Invoked command in '/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/build/pubs_and_subs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/build/pubs_and_subs -- -j4 -l4
+[5.299s] Invoking command in '/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/build/pubs_and_subs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/build/pubs_and_subs
+[5.303s] -- Install configuration: ""
+[5.305s] -- Installing: /home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/install/pubs_and_subs/lib/pubs_and_subs/talker1
+[5.306s] -- Set runtime path of "/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/install/pubs_and_subs/lib/pubs_and_subs/talker1" to ""
+[5.306s] -- Installing: /home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/install/pubs_and_subs/lib/pubs_and_subs/talker2
+[5.313s] -- Set runtime path of "/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/install/pubs_and_subs/lib/pubs_and_subs/talker2" to ""
+[5.314s] -- Installing: /home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/install/pubs_and_subs/lib/pubs_and_subs/listener
+[5.315s] -- Set runtime path of "/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/install/pubs_and_subs/lib/pubs_and_subs/listener" to ""
+[5.315s] -- Up-to-date: /home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/install/pubs_and_subs/share/ament_index/resource_index/package_run_dependencies/pubs_and_subs
+[5.315s] -- Up-to-date: /home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/install/pubs_and_subs/share/ament_index/resource_index/parent_prefix_path/pubs_and_subs
+[5.315s] -- Up-to-date: /home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/install/pubs_and_subs/share/pubs_and_subs/environment/ament_prefix_path.sh
+[5.315s] -- Up-to-date: /home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/install/pubs_and_subs/share/pubs_and_subs/environment/ament_prefix_path.dsv
+[5.315s] -- Up-to-date: /home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/install/pubs_and_subs/share/pubs_and_subs/environment/path.sh
+[5.315s] -- Up-to-date: /home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/install/pubs_and_subs/share/pubs_and_subs/environment/path.dsv
+[5.315s] -- Up-to-date: /home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/install/pubs_and_subs/share/pubs_and_subs/local_setup.bash
+[5.315s] -- Up-to-date: /home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/install/pubs_and_subs/share/pubs_and_subs/local_setup.sh
+[5.315s] -- Up-to-date: /home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/install/pubs_and_subs/share/pubs_and_subs/local_setup.zsh
+[5.315s] -- Up-to-date: /home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/install/pubs_and_subs/share/pubs_and_subs/local_setup.dsv
+[5.315s] -- Installing: /home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/install/pubs_and_subs/share/pubs_and_subs/package.dsv
+[5.315s] -- Up-to-date: /home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/install/pubs_and_subs/share/ament_index/resource_index/packages/pubs_and_subs
+[5.315s] -- Up-to-date: /home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/install/pubs_and_subs/share/pubs_and_subs/cmake/pubs_and_subsConfig.cmake
+[5.315s] -- Up-to-date: /home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/install/pubs_and_subs/share/pubs_and_subs/cmake/pubs_and_subsConfig-version.cmake
+[5.315s] -- Up-to-date: /home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/install/pubs_and_subs/share/pubs_and_subs/package.xml
+[5.315s] Invoked command in '/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/build/pubs_and_subs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/build/pubs_and_subs

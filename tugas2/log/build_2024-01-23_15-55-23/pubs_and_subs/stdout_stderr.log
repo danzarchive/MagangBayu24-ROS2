@@ -1,0 +1,43 @@
+[35m[1mScanning dependencies of target talker2[0m
+[35m[1mScanning dependencies of target talker1[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber-main.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/talker2.dir/src/publisher-2.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/talker1.dir/src/publisher-1.cpp.o[0m
+[01m[K/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/src/pubs_and_subs/src/subscriber-main.cpp:[m[K In constructor ‘[01m[KMySubscriber::MySubscriber()[m[K’:
+[01m[K/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/src/pubs_and_subs/src/subscriber-main.cpp:13:71:[m[K [01;31m[Kerror: [m[K‘[01m[K_1[m[K’ was not declared in this scope; did you mean ‘[01m[Kstd::placeholders::_1[m[K’?
+   13 |       "topic_1", 10, std::bind(&MySubscriber::topic_callback_1, this, [01;31m[K_1[m[K));
+      |                                                                       [01;31m[K^~[m[K
+      |                                                                       [32m[Kstd::placeholders::_1[m[K
+In file included from [01m[K/opt/ros/foxy/include/rclcpp/context.hpp:19[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/contexts/default_context.hpp:18[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:32[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+                 from [01m[K/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/src/pubs_and_subs/src/subscriber-main.cpp:4[m[K:
+[01m[K/usr/include/c++/9/functional:211:34:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::placeholders::_1[m[K’ declared here
+  211 |     extern const _Placeholder<1> [01;36m[K_1[m[K;
+      |                                  [01;36m[K^~[m[K
+[01m[K/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/src/pubs_and_subs/src/subscriber-main.cpp:[m[K In member function ‘[01m[Kvoid MySubscriber::topic_callback_1(std_msgs::msg::String_<std::allocator<void> >::SharedPtr) const[m[K’:
+[01m[K/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/src/pubs_and_subs/src/subscriber-main.cpp:26:22:[m[K [01;31m[Kerror: [m[Kassignment of member ‘[01m[KMySubscriber::pub1_received_[m[K’ in read-only object
+   26 |       [01;31m[Kpub1_received_ = true[m[K;
+      |       [01;31m[K~~~~~~~~~~~~~~~^~~~~~[m[K
+[01m[K/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/src/pubs_and_subs/src/subscriber-main.cpp:[m[K In member function ‘[01m[Kvoid MySubscriber::topic_callback_2(std_msgs::msg::String_<std::allocator<void> >::SharedPtr) const[m[K’:
+[01m[K/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/src/pubs_and_subs/src/subscriber-main.cpp:34:22:[m[K [01;31m[Kerror: [m[Kassignment of member ‘[01m[KMySubscriber::pub2_received_[m[K’ in read-only object
+   34 |       [01;31m[Kpub2_received_ = true[m[K;
+      |       [01;31m[K~~~~~~~~~~~~~~~^~~~~~[m[K
+[01m[K/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/src/pubs_and_subs/src/subscriber-main.cpp:[m[K In member function ‘[01m[Kvoid MySubscriber::timer_callback() const[m[K’:
+[01m[K/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/src/pubs_and_subs/src/subscriber-main.cpp:49:20:[m[K [01;31m[Kerror: [m[Kassignment of member ‘[01m[KMySubscriber::pub1_received_[m[K’ in read-only object
+   49 |     [01;31m[Kpub1_received_ = false[m[K;
+      |     [01;31m[K~~~~~~~~~~~~~~~^~~~~~~[m[K
+[01m[K/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/src/pubs_and_subs/src/subscriber-main.cpp:50:20:[m[K [01;31m[Kerror: [m[Kassignment of member ‘[01m[KMySubscriber::pub2_received_[m[K’ in read-only object
+   50 |     [01;31m[Kpub2_received_ = false[m[K;
+      |     [01;31m[K~~~~~~~~~~~~~~~^~~~~~~[m[K
+make[2]: *** [CMakeFiles/listener.dir/build.make:63: CMakeFiles/listener.dir/src/subscriber-main.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:82: CMakeFiles/listener.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+[ 66%] [32m[1mLinking CXX executable talker2[0m
+[ 83%] [32m[1mLinking CXX executable talker1[0m
+[ 83%] Built target talker2
+[ 83%] Built target talker1
+make: *** [Makefile:141: all] Error 2

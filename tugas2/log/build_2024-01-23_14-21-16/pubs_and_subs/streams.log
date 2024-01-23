@@ -1,0 +1,14 @@
+[0.103s] Invoking command in '/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/build/pubs_and_subs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/build/pubs_and_subs -- -j4 -l4
+[0.163s] [35m[1mScanning dependencies of target talker2[0m
+[0.219s] [ 16%] [32mBuilding CXX object CMakeFiles/talker2.dir/src/publisher-2.cpp.o[0m
+[0.244s] [ 50%] Built target talker1
+[0.247s] [ 83%] Built target listener
+[1.413s] [01m[K/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/src/pubs_and_subs/src/publisher-2.cpp:13:36:[m[K [01;31m[Kerror: [m[Kcould not convert ‘[01m[K{1.5e+0}[m[K’ from ‘[01m[K<brace-enclosed initializer list>[m[K’ to ‘[01m[Kstd::chrono::seconds[m[K’ {aka ‘[01m[Kstd::chrono::duration<long int>[m[K’}
+[1.413s]    13 |   std::chrono::seconds interval{1.5[01;31m[K}[m[K; // changed timer interval to 1 seconds
+[1.413s]       |                                    [01;31m[K^[m[K
+[1.413s]       |                                    [01;31m[K|[m[K
+[1.414s]       |                                    [01;31m[K<brace-enclosed initializer list>[m[K
+[2.012s] make[2]: *** [CMakeFiles/talker2.dir/build.make:63: CMakeFiles/talker2.dir/src/publisher-2.cpp.o] Error 1
+[2.012s] make[1]: *** [CMakeFiles/Makefile2:109: CMakeFiles/talker2.dir/all] Error 2
+[2.014s] make: *** [Makefile:141: all] Error 2
+[2.039s] Invoked command in '/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/build/pubs_and_subs' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/build/pubs_and_subs -- -j4 -l4

@@ -1,0 +1,17 @@
+[0.082s] Invoking command in '/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/build/pubs_and_subs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/build/pubs_and_subs -- -j4 -l4
+[0.118s] [35m[1mScanning dependencies of target listener[0m
+[0.152s] [ 16%] [32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber-main.cpp.o[0m
+[0.157s] [ 50%] Built target talker1
+[0.166s] [ 83%] Built target talker2
+[1.068s] [01m[K/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/src/pubs_and_subs/src/subscriber-main.cpp:[m[K In member function ‘[01m[Kvoid MinimalSubscriber::topic_callback1(std_msgs::msg::String_<std::allocator<void> >::SharedPtr)[m[K’:
+[1.068s] [01m[K/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/src/pubs_and_subs/src/subscriber-main.cpp:35:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct std_msgs::msg::String_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct std_msgs::msg::String_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kheader[m[K’
+[1.069s]    35 |     latest_pub1_time = msg->[01;31m[Kheader[m[K.stamp;
+[1.069s]       |                             [01;31m[K^~~~~~[m[K
+[1.069s] [01m[K/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/src/pubs_and_subs/src/subscriber-main.cpp:[m[K In member function ‘[01m[Kvoid MinimalSubscriber::topic_callback2(std_msgs::msg::String_<std::allocator<void> >::SharedPtr)[m[K’:
+[1.069s] [01m[K/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/src/pubs_and_subs/src/subscriber-main.cpp:46:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct std_msgs::msg::String_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct std_msgs::msg::String_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kheader[m[K’
+[1.069s]    46 |     latest_pub2_time = msg->[01;31m[Kheader[m[K.stamp;
+[1.069s]       |                             [01;31m[K^~~~~~[m[K
+[1.868s] make[2]: *** [CMakeFiles/listener.dir/build.make:63: CMakeFiles/listener.dir/src/subscriber-main.cpp.o] Error 1
+[1.869s] make[1]: *** [CMakeFiles/Makefile2:82: CMakeFiles/listener.dir/all] Error 2
+[1.869s] make: *** [Makefile:141: all] Error 2
+[1.890s] Invoked command in '/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/build/pubs_and_subs' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/build/pubs_and_subs -- -j4 -l4

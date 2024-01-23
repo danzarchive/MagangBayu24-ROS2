@@ -1,0 +1,33 @@
+[35m[1mScanning dependencies of target listener[0m
+[ 33%] Built target talker1
+[ 66%] Built target talker2
+[ 83%] [32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber-main.cpp.o[0m
+[01m[K/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/src/pubs_and_subs/src/subscriber-main.cpp:[m[K In member function ‘[01m[Kvoid MinimalSubscriber::topic_callback1(std_msgs::msg::String_<std::allocator<void> >::SharedPtr) const[m[K’:
+[01m[K/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/src/pubs_and_subs/src/subscriber-main.cpp:30:25:[m[K [01;31m[Kerror: [m[Kassignment of member ‘[01m[KMinimalSubscriber::latest_pub1_state[m[K’ in read-only object
+   30 |       [01;31m[Klatest_pub1_state = true[m[K;
+      |       [01;31m[K~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[01m[K/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/src/pubs_and_subs/src/subscriber-main.cpp:32:25:[m[K [01;31m[Kerror: [m[Kassignment of member ‘[01m[KMinimalSubscriber::latest_pub1_state[m[K’ in read-only object
+   32 |       [01;31m[Klatest_pub1_state = false[m[K;
+      |       [01;31m[K~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[01m[K/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/src/pubs_and_subs/src/subscriber-main.cpp:35:28:[m[K [01;31m[Kerror: [m[Kpassing ‘[01m[Kconst MinimalSubscriber[m[K’ as ‘[01m[Kthis[m[K’ argument discards qualifiers [[01;31m[K-fpermissive[m[K]
+   35 |     check_publisher_states([01;31m[K)[m[K;
+      |                            [01;31m[K^[m[K
+[01m[K/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/src/pubs_and_subs/src/subscriber-main.cpp:49:8:[m[K [01;36m[Knote: [m[K  in call to ‘[01m[Kvoid MinimalSubscriber::check_publisher_states()[m[K’
+   49 |   void [01;36m[Kcheck_publisher_states[m[K()
+      |        [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/src/pubs_and_subs/src/subscriber-main.cpp:[m[K In member function ‘[01m[Kvoid MinimalSubscriber::topic_callback2(std_msgs::msg::String_<std::allocator<void> >::SharedPtr) const[m[K’:
+[01m[K/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/src/pubs_and_subs/src/subscriber-main.cpp:41:25:[m[K [01;31m[Kerror: [m[Kassignment of member ‘[01m[KMinimalSubscriber::latest_pub2_state[m[K’ in read-only object
+   41 |       [01;31m[Klatest_pub2_state = true[m[K;
+      |       [01;31m[K~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[01m[K/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/src/pubs_and_subs/src/subscriber-main.cpp:43:25:[m[K [01;31m[Kerror: [m[Kassignment of member ‘[01m[KMinimalSubscriber::latest_pub2_state[m[K’ in read-only object
+   43 |       [01;31m[Klatest_pub2_state = false[m[K;
+      |       [01;31m[K~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[01m[K/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/src/pubs_and_subs/src/subscriber-main.cpp:46:28:[m[K [01;31m[Kerror: [m[Kpassing ‘[01m[Kconst MinimalSubscriber[m[K’ as ‘[01m[Kthis[m[K’ argument discards qualifiers [[01;31m[K-fpermissive[m[K]
+   46 |     check_publisher_states([01;31m[K)[m[K;
+      |                            [01;31m[K^[m[K
+[01m[K/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/src/pubs_and_subs/src/subscriber-main.cpp:49:8:[m[K [01;36m[Knote: [m[K  in call to ‘[01m[Kvoid MinimalSubscriber::check_publisher_states()[m[K’
+   49 |   void [01;36m[Kcheck_publisher_states[m[K()
+      |        [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/listener.dir/build.make:63: CMakeFiles/listener.dir/src/subscriber-main.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:82: CMakeFiles/listener.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

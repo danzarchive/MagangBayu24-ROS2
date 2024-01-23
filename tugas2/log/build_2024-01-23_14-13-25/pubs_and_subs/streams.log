@@ -1,0 +1,55 @@
+[0.081s] Invoking command in '/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/build/pubs_and_subs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/build/pubs_and_subs -- -j4 -l4
+[0.118s] [35m[1mScanning dependencies of target talker1[0m
+[0.118s] [35m[1mScanning dependencies of target talker2[0m
+[0.144s] [ 33%] Built target listener
+[0.148s] [ 50%] [32mBuilding CXX object CMakeFiles/talker2.dir/src/publisher-2.cpp.o[0m
+[0.150s] [ 66%] [32mBuilding CXX object CMakeFiles/talker1.dir/src/publisher-1.cpp.o[0m
+[1.230s] [01m[K/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/src/pubs_and_subs/src/publisher-2.cpp:[m[K In constructor ‘[01m[KMyPublisher2::MyPublisher2()[m[K’:
+[1.230s] [01m[K/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/src/pubs_and_subs/src/publisher-2.cpp:40:59:[m[K [01;31m[Kerror: [m[K‘[01m[KMyPublisher[m[K’ has not been declared
+[1.230s]    40 |     timer_ = this->create_wall_timer(interval, std::bind(&[01;31m[KMyPublisher[m[K::timer_callback, this));
+[1.230s]       |                                                           [01;31m[K^~~~~~~~~~~[m[K
+[1.231s] [01m[K/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/src/pubs_and_subs/src/publisher-1.cpp:[m[K In constructor ‘[01m[KMyPublisher1::MyPublisher1()[m[K’:
+[1.231s] [01m[K/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/src/pubs_and_subs/src/publisher-1.cpp:40:59:[m[K [01;31m[Kerror: [m[K‘[01m[KMyPublisher[m[K’ has not been declared
+[1.231s]    40 |     timer_ = this->create_wall_timer(interval, std::bind(&[01;31m[KMyPublisher[m[K::timer_callback, this));
+[1.231s]       |                                                           [01;31m[K^~~~~~~~~~~[m[K
+[1.232s] [01m[K/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/src/pubs_and_subs/src/publisher-2.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[1.232s] [01m[K/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/src/pubs_and_subs/src/publisher-2.cpp:47:33:[m[K [01;31m[Kerror: [m[K‘[01m[KMyPublisher[m[K’ was not declared in this scope; did you mean ‘[01m[KMyPublisher2[m[K’?
+[1.232s]    47 |   rclcpp::spin(std::make_shared<[01;31m[KMyPublisher[m[K>());
+[1.232s]       |                                 [01;31m[K^~~~~~~~~~~[m[K
+[1.232s]       |                                 [32m[KMyPublisher2[m[K
+[1.232s] [01m[K/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/src/pubs_and_subs/src/publisher-2.cpp:47:46:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmake_shared<<expression error> >()[m[K’
+[1.232s]    47 |   rclcpp::spin(std::make_shared<MyPublisher>([01;31m[K)[m[K);
+[1.232s]       |                                              [01;31m[K^[m[K
+[1.233s] In file included from [01m[K/usr/include/c++/9/memory:81[m[K,
+[1.233s]                  from [01m[K/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/src/pubs_and_subs/src/publisher-2.cpp:2[m[K:
+[1.233s] [01m[K/usr/include/c++/9/bits/shared_ptr.h:714:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class ... _Args> std::shared_ptr<_Tp> std::make_shared(_Args&& ...)[m[K’
+[1.233s]   714 |     [01;36m[Kmake_shared[m[K(_Args&&... __args)
+[1.233s]       |     [01;36m[K^~~~~~~~~~~[m[K
+[1.233s] [01m[K/usr/include/c++/9/bits/shared_ptr.h:714:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.233s] [01m[K/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/src/pubs_and_subs/src/publisher-2.cpp:47:46:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.233s]    47 |   rclcpp::spin(std::make_shared<MyPublisher>([01;31m[K)[m[K);
+[1.233s]       |                                              [01;31m[K^[m[K
+[1.233s] [01m[K/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/src/pubs_and_subs/src/publisher-1.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[1.233s] [01m[K/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/src/pubs_and_subs/src/publisher-1.cpp:47:33:[m[K [01;31m[Kerror: [m[K‘[01m[KMyPublisher[m[K’ was not declared in this scope; did you mean ‘[01m[KMyPublisher1[m[K’?
+[1.233s]    47 |   rclcpp::spin(std::make_shared<[01;31m[KMyPublisher[m[K>());
+[1.233s]       |                                 [01;31m[K^~~~~~~~~~~[m[K
+[1.233s]       |                                 [32m[KMyPublisher1[m[K
+[1.233s] [01m[K/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/src/pubs_and_subs/src/publisher-1.cpp:47:46:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmake_shared<<expression error> >()[m[K’
+[1.233s]    47 |   rclcpp::spin(std::make_shared<MyPublisher>([01;31m[K)[m[K);
+[1.233s]       |                                              [01;31m[K^[m[K
+[1.235s] In file included from [01m[K/usr/include/c++/9/memory:81[m[K,
+[1.235s]                  from [01m[K/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/src/pubs_and_subs/src/publisher-1.cpp:2[m[K:
+[1.235s] [01m[K/usr/include/c++/9/bits/shared_ptr.h:714:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class ... _Args> std::shared_ptr<_Tp> std::make_shared(_Args&& ...)[m[K’
+[1.235s]   714 |     [01;36m[Kmake_shared[m[K(_Args&&... __args)
+[1.235s]       |     [01;36m[K^~~~~~~~~~~[m[K
+[1.235s] [01m[K/usr/include/c++/9/bits/shared_ptr.h:714:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.235s] [01m[K/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/src/pubs_and_subs/src/publisher-1.cpp:47:46:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.235s]    47 |   rclcpp::spin(std::make_shared<MyPublisher>([01;31m[K)[m[K);
+[1.235s]       |                                              [01;31m[K^[m[K
+[1.777s] make[2]: *** [CMakeFiles/talker2.dir/build.make:63: CMakeFiles/talker2.dir/src/publisher-2.cpp.o] Error 1
+[1.777s] make[1]: *** [CMakeFiles/Makefile2:109: CMakeFiles/talker2.dir/all] Error 2
+[1.777s] make[1]: *** Waiting for unfinished jobs....
+[1.783s] make[2]: *** [CMakeFiles/talker1.dir/build.make:63: CMakeFiles/talker1.dir/src/publisher-1.cpp.o] Error 1
+[1.783s] make[1]: *** [CMakeFiles/Makefile2:136: CMakeFiles/talker1.dir/all] Error 2
+[1.783s] make: *** [Makefile:141: all] Error 2
+[1.791s] Invoked command in '/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/build/pubs_and_subs' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/build/pubs_and_subs -- -j4 -l4

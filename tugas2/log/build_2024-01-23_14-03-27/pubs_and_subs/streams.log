@@ -1,0 +1,13 @@
+[0.074s] Invoking command in '/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/build/pubs_and_subs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/build/pubs_and_subs -- -j4 -l4
+[0.134s] [35m[1mScanning dependencies of target talker1[0m
+[0.142s] [ 33%] Built target talker2
+[0.145s] [ 66%] Built target listener
+[0.150s] [ 83%] [32mBuilding CXX object CMakeFiles/talker1.dir/src/publisher-1.cpp.o[0m
+[1.009s] [01m[K/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/src/pubs_and_subs/src/publisher-1.cpp:[m[K In constructor ‘[01m[KMyPublisher1::MyPublisher1()[m[K’:
+[1.009s] [01m[K/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/src/pubs_and_subs/src/publisher-1.cpp:15:38:[m[K [01;31m[Kerror: [m[Kunable to find numeric literal operator ‘[01m[Koperator""s[m[K’
+[1.009s]    15 |     timer_ = this->create_wall_timer([01;31m[K2s[m[K, std::bind(&MyPublisher1::timer_callback, this));
+[1.009s]       |                                      [01;31m[K^~[m[K
+[1.500s] make[2]: *** [CMakeFiles/talker1.dir/build.make:63: CMakeFiles/talker1.dir/src/publisher-1.cpp.o] Error 1
+[1.500s] make[1]: *** [CMakeFiles/Makefile2:136: CMakeFiles/talker1.dir/all] Error 2
+[1.500s] make: *** [Makefile:141: all] Error 2
+[1.506s] Invoked command in '/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/build/pubs_and_subs' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/build/pubs_and_subs -- -j4 -l4

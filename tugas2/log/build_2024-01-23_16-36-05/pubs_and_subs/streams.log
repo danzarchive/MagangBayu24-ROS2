@@ -1,0 +1,30 @@
+[0.071s] Invoking command in '/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/build/pubs_and_subs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/build/pubs_and_subs -- -j4 -l4
+[0.122s] [35m[1mScanning dependencies of target listener[0m
+[0.122s] [35m[1mScanning dependencies of target talker2[0m
+[0.125s] [35m[1mScanning dependencies of target talker1[0m
+[0.142s] [ 33%] [32mBuilding CXX object CMakeFiles/talker2.dir/src/publisher-2.cpp.o[0m
+[0.142s] [ 33%] [32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber-main.cpp.o[0m
+[0.146s] [ 50%] [32mBuilding CXX object CMakeFiles/talker1.dir/src/publisher-1.cpp.o[0m
+[1.763s] [01m[K/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/src/pubs_and_subs/src/subscriber-main.cpp:[m[K In member function ‘[01m[Kvoid MinimalSubscriber::topic_callback1(std_msgs::msg::String_<std::allocator<void> >::SharedPtr) const[m[K’:
+[1.764s] [01m[K/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/src/pubs_and_subs/src/subscriber-main.cpp:28:25:[m[K [01;31m[Kerror: [m[Kassignment of member ‘[01m[KMinimalSubscriber::latest_pub1_state[m[K’ in read-only object
+[1.764s]    28 |       [01;31m[Klatest_pub1_state = true[m[K;
+[1.764s]       |       [01;31m[K~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[1.764s] [01m[K/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/src/pubs_and_subs/src/subscriber-main.cpp:30:25:[m[K [01;31m[Kerror: [m[Kassignment of member ‘[01m[KMinimalSubscriber::latest_pub1_state[m[K’ in read-only object
+[1.764s]    30 |       [01;31m[Klatest_pub1_state = false[m[K;
+[1.764s]       |       [01;31m[K~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[1.764s] [01m[K/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/src/pubs_and_subs/src/subscriber-main.cpp:[m[K In member function ‘[01m[Kvoid MinimalSubscriber::topic_callback2(std_msgs::msg::String_<std::allocator<void> >::SharedPtr) const[m[K’:
+[1.764s] [01m[K/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/src/pubs_and_subs/src/subscriber-main.cpp:39:25:[m[K [01;31m[Kerror: [m[Kassignment of member ‘[01m[KMinimalSubscriber::latest_pub2_state[m[K’ in read-only object
+[1.764s]    39 |       [01;31m[Klatest_pub2_state = true[m[K;
+[1.765s]       |       [01;31m[K~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[1.765s] [01m[K/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/src/pubs_and_subs/src/subscriber-main.cpp:41:25:[m[K [01;31m[Kerror: [m[Kassignment of member ‘[01m[KMinimalSubscriber::latest_pub2_state[m[K’ in read-only object
+[1.765s]    41 |       [01;31m[Klatest_pub2_state = false[m[K;
+[1.765s]       |       [01;31m[K~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[4.066s] make[2]: *** [CMakeFiles/listener.dir/build.make:63: CMakeFiles/listener.dir/src/subscriber-main.cpp.o] Error 1
+[4.068s] make[1]: *** [CMakeFiles/Makefile2:82: CMakeFiles/listener.dir/all] Error 2
+[4.068s] make[1]: *** Waiting for unfinished jobs....
+[4.129s] [ 66%] [32m[1mLinking CXX executable talker2[0m
+[4.205s] [ 83%] [32m[1mLinking CXX executable talker1[0m
+[4.277s] [ 83%] Built target talker2
+[4.303s] [ 83%] Built target talker1
+[4.304s] make: *** [Makefile:141: all] Error 2
+[4.309s] Invoked command in '/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/build/pubs_and_subs' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/build/pubs_and_subs -- -j4 -l4

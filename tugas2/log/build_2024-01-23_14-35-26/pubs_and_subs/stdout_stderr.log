@@ -1,0 +1,11 @@
+[35m[1mScanning dependencies of target talker2[0m
+[ 33%] Built target talker1
+[ 66%] Built target listener
+[ 83%] [32mBuilding CXX object CMakeFiles/talker2.dir/src/publisher-2.cpp.o[0m
+[01m[K/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/src/pubs_and_subs/src/publisher-2.cpp:[m[K In member function ‘[01m[Kvoid MyPublisher2::timer_callback()[m[K’:
+[01m[K/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/src/pubs_and_subs/src/publisher-2.cpp:24:19:[m[K [01;31m[Kerror: [m[K‘[01m[Kdata[m[K’ was not declared in this scope
+   24 |     if (state = 3*[01;31m[Kdata[m[K) {
+      |                   [01;31m[K^~~~[m[K
+make[2]: *** [CMakeFiles/talker2.dir/build.make:63: CMakeFiles/talker2.dir/src/publisher-2.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:109: CMakeFiles/talker2.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

@@ -1,0 +1,31 @@
+[0.072s] Invoking command in '/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/build/pubs_and_subs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/build/pubs_and_subs -- -j4 -l4
+[0.109s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.131s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.230s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.264s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.269s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.413s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.473s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.476s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.593s] CMake Error at CMakeLists.txt:22 (find_package):
+[0.593s]   By not providing "Findcustom_msgs.cmake" in CMAKE_MODULE_PATH this project
+[0.593s]   has asked CMake to find a package configuration file provided by
+[0.593s]   "custom_msgs", but CMake did not find one.
+[0.593s] 
+[0.593s]   Could not find a package configuration file provided by "custom_msgs" with
+[0.593s]   any of the following names:
+[0.593s] 
+[0.593s]     custom_msgsConfig.cmake
+[0.593s]     custom_msgs-config.cmake
+[0.593s] 
+[0.593s]   Add the installation prefix of "custom_msgs" to CMAKE_PREFIX_PATH or set
+[0.593s]   "custom_msgs_DIR" to a directory containing one of the above files.  If
+[0.593s]   "custom_msgs" provides a separate development package or SDK, be sure it
+[0.593s]   has been installed.
+[0.593s] 
+[0.593s] 
+[0.593s] -- Configuring incomplete, errors occurred!
+[0.593s] See also "/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/build/pubs_and_subs/CMakeFiles/CMakeOutput.log".
+[0.593s] See also "/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/build/pubs_and_subs/CMakeFiles/CMakeError.log".
+[0.597s] make: *** [Makefile:354: cmake_check_build_system] Error 1
+[0.599s] Invoked command in '/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/build/pubs_and_subs' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/build/pubs_and_subs -- -j4 -l4

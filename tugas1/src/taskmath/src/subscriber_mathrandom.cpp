@@ -7,17 +7,11 @@
 
 float evaluate(float num1, char op, float num2)
 {
-  if (op == '+') {
-    return num1 + num2;
-  } else if (op == '-') {
-    return num1 - num2;
-  } else if (op == '*') {
-    return num1 * num2;
-  } else if (op == '/') {
-    return num1 / num2;
-  } else if (op == '%') {
-    return float(int(num1) % int(num2));
-  }
+  if (op == '+') {return num1 + num2;}
+  else if (op == '-') {return num1 - num2;}
+  else if (op == '*') {return num1 * num2;}
+  else if (op == '/') {return num1 / num2;}
+  else if (op == '%') {return float(int(num1) % int(num2));}
   return -1;
 }
 
@@ -28,11 +22,14 @@ std::string calculate_expression(const std::string& expression)
   std::vector<int> numbers;
   std::vector<char> operators;
 
-  for (size_t i = 0; i < expression.size(); i++) {
-    if (expression[i] == ' ' || i == expression.size() - 1) {
+  for (size_t i = 0; i < expression.size(); i++)
+  {
+    if (expression[i] == ' ' || i == expression.size() - 1)
+    {
       numbers.push_back(std::stoi(expression.substr(limit, i - limit + 1)));
 
-      if (i != expression.size() - 1) {
+      if (i != expression.size() - 1)
+      {
         operators.push_back(expression[i + 1]);
       }
 

@@ -1,0 +1,51 @@
+[0.078s] Invoking command in '/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/build/pubs_and_subs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/build/pubs_and_subs -- -j4 -l4
+[0.124s] [35m[1mScanning dependencies of target listener[0m
+[0.148s] [ 33%] Built target talker2
+[0.150s] [ 66%] Built target talker1
+[0.154s] [ 83%] [32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber-main.cpp.o[0m
+[0.934s] [01m[K/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/src/pubs_and_subs/src/subscriber-main.cpp:53:58:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[0.934s]    53 |   rclcpp::Subscription<std_msgs::msg::String>::SharedPtr [01;31m[Ksubscription[m[K
+[0.934s]       |                                                          [01;31m[K^~~~~~~~~~~~[m[K
+[0.935s]       |                                                                      [32m[K;[m[K
+[0.935s] [01m[K/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/src/pubs_and_subs/src/subscriber-main.cpp:54:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ after class definition
+[0.935s]    54 | }
+[0.935s]       |  [01;31m[K^[m[K
+[0.935s]       |  [32m[K;[m[K
+[0.936s] [01m[K/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/src/pubs_and_subs/src/subscriber-main.cpp:[m[K In constructor ‘[01m[KMySubscriber::MySubscriber()[m[K’:
+[0.936s] [01m[K/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/src/pubs_and_subs/src/subscriber-main.cpp:12:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_1_[m[K’ was not declared in this scope; did you mean ‘[01m[Ksubscription[m[K’?
+[0.937s]    12 |     [01;31m[Ksubscription_1_[m[K = this->create_subscription<std_msgs::msg::String>(
+[0.937s]       |     [01;31m[K^~~~~~~~~~~~~~~[m[K
+[0.937s]       |     [32m[Ksubscription[m[K
+[0.944s] [01m[K/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/src/pubs_and_subs/src/subscriber-main.cpp:15:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_2_[m[K’ was not declared in this scope; did you mean ‘[01m[Ksubscription[m[K’?
+[0.944s]    15 |     [01;31m[Ksubscription_2_[m[K = this->create_subscription<std_msgs::msg::String>(
+[0.944s]       |     [01;31m[K^~~~~~~~~~~~~~~[m[K
+[0.944s]       |     [32m[Ksubscription[m[K
+[0.945s] [01m[K/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/src/pubs_and_subs/src/subscriber-main.cpp:18:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ktimer_[m[K’ was not declared in this scope; did you mean ‘[01m[Ktimer_t[m[K’?
+[0.945s]    18 |     [01;31m[Ktimer_[m[K = this->create_wall_timer(std::chrono::seconds(5), std::bind(&MySubscriber::timer_callback, this));
+[0.945s]       |     [01;31m[K^~~~~~[m[K
+[0.945s]       |     [32m[Ktimer_t[m[K
+[0.952s] [01m[K/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/src/pubs_and_subs/src/subscriber-main.cpp:[m[K In member function ‘[01m[Kvoid MySubscriber::topic_callback_1(std_msgs::msg::String_<std::allocator<void> >::SharedPtr) const[m[K’:
+[0.952s] [01m[K/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/src/pubs_and_subs/src/subscriber-main.cpp:26:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kpub1_received_[m[K’ was not declared in this scope
+[0.952s]    26 |       [01;31m[Kpub1_received_[m[K = true;
+[0.952s]       |       [01;31m[K^~~~~~~~~~~~~~[m[K
+[0.954s] [01m[K/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/src/pubs_and_subs/src/subscriber-main.cpp:[m[K In member function ‘[01m[Kvoid MySubscriber::topic_callback_2(std_msgs::msg::String_<std::allocator<void> >::SharedPtr) const[m[K’:
+[0.954s] [01m[K/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/src/pubs_and_subs/src/subscriber-main.cpp:34:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kpub2_received_[m[K’ was not declared in this scope
+[0.954s]    34 |       [01;31m[Kpub2_received_[m[K = true;
+[0.954s]       |       [01;31m[K^~~~~~~~~~~~~~[m[K
+[0.956s] [01m[K/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/src/pubs_and_subs/src/subscriber-main.cpp:[m[K In member function ‘[01m[Kvoid MySubscriber::timer_callback() const[m[K’:
+[0.956s] [01m[K/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/src/pubs_and_subs/src/subscriber-main.cpp:40:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kpub1_received_[m[K’ was not declared in this scope
+[0.956s]    40 |     if ([01;31m[Kpub1_received_[m[K && pub2_received_)
+[0.956s]       |         [01;31m[K^~~~~~~~~~~~~~[m[K
+[0.958s] [01m[K/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/src/pubs_and_subs/src/subscriber-main.cpp:40:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kpub2_received_[m[K’ was not declared in this scope
+[0.958s]    40 |     if (pub1_received_ && [01;31m[Kpub2_received_[m[K)
+[0.958s]       |                           [01;31m[K^~~~~~~~~~~~~~[m[K
+[0.961s] [01m[K/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/src/pubs_and_subs/src/subscriber-main.cpp:49:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kpub1_received_[m[K’ was not declared in this scope
+[0.961s]    49 |     [01;31m[Kpub1_received_[m[K = false;
+[0.961s]       |     [01;31m[K^~~~~~~~~~~~~~[m[K
+[0.962s] [01m[K/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/src/pubs_and_subs/src/subscriber-main.cpp:50:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kpub2_received_[m[K’ was not declared in this scope
+[0.962s]    50 |     [01;31m[Kpub2_received_[m[K = false;
+[0.962s]       |     [01;31m[K^~~~~~~~~~~~~~[m[K
+[1.683s] make[2]: *** [CMakeFiles/listener.dir/build.make:63: CMakeFiles/listener.dir/src/subscriber-main.cpp.o] Error 1
+[1.684s] make[1]: *** [CMakeFiles/Makefile2:82: CMakeFiles/listener.dir/all] Error 2
+[1.684s] make: *** [Makefile:141: all] Error 2
+[1.690s] Invoked command in '/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/build/pubs_and_subs' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/build/pubs_and_subs -- -j4 -l4

@@ -1,0 +1,18 @@
+[0.084s] Invoking command in '/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/build/pubs_and_subs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/build/pubs_and_subs -- -j4 -l4
+[0.115s] [35m[1mScanning dependencies of target listener[0m
+[0.152s] [ 33%] Built target talker1
+[0.170s] [ 66%] Built target talker2
+[0.174s] [ 83%] [32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber-main.cpp.o[0m
+[0.913s] [01m[K/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/src/pubs_and_subs/src/subscriber-main.cpp:[m[K In member function ‘[01m[Kvoid MySubscriber::topic_callback(std_msgs::msg::String_<std::allocator<void> >::SharedPtr) const[m[K’:
+[0.913s] [01m[K/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/src/pubs_and_subs/src/subscriber-main.cpp:35:32:[m[K [01;31m[Kerror: [m[Kinvalid conversion from ‘[01m[Kconst rclcpp::Node*[m[K’ to ‘[01m[Krclcpp::Node*[m[K’ [[01;31m[K-fpermissive[m[K]
+[0.913s]    35 |     rclcpp::Node* const_this = [01;31m[Kthis[m[K;  // Create const pointer to the node
+[0.913s]       |                                [01;31m[K^~~~[m[K
+[0.913s]       |                                [01;31m[K|[m[K
+[0.913s]       |                                [01;31m[Kconst rclcpp::Node*[m[K
+[0.914s] [01m[K/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/src/pubs_and_subs/src/subscriber-main.cpp:36:58:[m[K [01;31m[Kerror: [m[Kconversion from ‘[01m[Kshared_ptr<[01;32m[Kconst rclcpp::Clock[m[K>[m[K’ to non-scalar type ‘[01m[Kshared_ptr<[01;32m[Krclcpp::Clock[m[K>[m[K’ requested
+[0.914s]    36 |     rclcpp::Clock::SharedPtr clock_copy = [01;31m[Kthis->get_clock()[m[K;
+[0.914s]       |                                           [01;31m[K~~~~~~~~~~~~~~~^~[m[K
+[1.657s] make[2]: *** [CMakeFiles/listener.dir/build.make:63: CMakeFiles/listener.dir/src/subscriber-main.cpp.o] Error 1
+[1.657s] make[1]: *** [CMakeFiles/Makefile2:82: CMakeFiles/listener.dir/all] Error 2
+[1.658s] make: *** [Makefile:141: all] Error 2
+[1.663s] Invoked command in '/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/build/pubs_and_subs' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/build/pubs_and_subs -- -j4 -l4

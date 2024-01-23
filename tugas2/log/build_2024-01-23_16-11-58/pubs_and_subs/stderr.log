@@ -1,0 +1,108 @@
+[01m[K/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/src/pubs_and_subs/src/subscriber-main.cpp:5:10:[m[K [01;35m[Kwarning: [m[Kmissing terminating " character
+    5 | #include [01;35m[K"[m[Kstd_msgs/msg/string.hpp>
+      |          [01;35m[K^[m[K
+[01m[K/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/src/pubs_and_subs/src/subscriber-main.cpp:5:10:[m[K [01;31m[Kerror: [m[K#include expects "FILENAME" or <FILENAME>
+    5 | #include [01;31m[K"std_msgs/msg/string.hpp>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/src/pubs_and_subs/src/subscriber-main.cpp:22:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd_msgs[m[K’ does not name a type
+   22 |   void topic_callback_1(const [01;31m[Kstd_msgs[m[K::msg::String::SharedPtr msg)
+      |                               [01;31m[K^~~~~~~~[m[K
+[01m[K/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/src/pubs_and_subs/src/subscriber-main.cpp:22:44:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K::[m[K’ token
+   22 |   void topic_callback_1(const std_msgs::msg[01;31m[K::[m[KString::SharedPtr msg)
+      |                                            [01;31m[K^~[m[K
+[01m[K/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/src/pubs_and_subs/src/subscriber-main.cpp:22:44:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K::[m[K’ token
+   22 |   void topic_callback_1[34m[K([m[Kconst std_msgs::msg[01;31m[K:[m[K[32m[K:[m[KString::SharedPtr msg)
+      |                        [34m[K~[m[K                   [01;31m[K^[m[K[32m[K~[m[K
+      |                                            [32m[K)[m[K
+[01m[K/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/src/pubs_and_subs/src/subscriber-main.cpp:22:41:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   22 |   void topic_callback_1(const std_msgs::[01;31m[Kmsg[m[K::String::SharedPtr msg)
+      |                                         [01;31m[K^~~[m[K
+      |                                            [32m[K;[m[K
+[01m[K/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/src/pubs_and_subs/src/subscriber-main.cpp:22:46:[m[K [01;31m[Kerror: [m[K‘[01m[KString[m[K’ in namespace ‘[01m[K::[m[K’ does not name a type
+   22 |   void topic_callback_1(const std_msgs::msg::[01;31m[KString[m[K::SharedPtr msg)
+      |                                              [01;31m[K^~~~~~[m[K
+[01m[K/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/src/pubs_and_subs/src/subscriber-main.cpp:30:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd_msgs[m[K’ does not name a type
+   30 |   void topic_callback_2(const [01;31m[Kstd_msgs[m[K::msg::String::SharedPtr msg)
+      |                               [01;31m[K^~~~~~~~[m[K
+[01m[K/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/src/pubs_and_subs/src/subscriber-main.cpp:30:44:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K::[m[K’ token
+   30 |   void topic_callback_2(const std_msgs::msg[01;31m[K::[m[KString::SharedPtr msg)
+      |                                            [01;31m[K^~[m[K
+[01m[K/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/src/pubs_and_subs/src/subscriber-main.cpp:30:44:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K::[m[K’ token
+   30 |   void topic_callback_2[34m[K([m[Kconst std_msgs::msg[01;31m[K:[m[K[32m[K:[m[KString::SharedPtr msg)
+      |                        [34m[K~[m[K                   [01;31m[K^[m[K[32m[K~[m[K
+      |                                            [32m[K)[m[K
+[01m[K/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/src/pubs_and_subs/src/subscriber-main.cpp:30:41:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   30 |   void topic_callback_2(const std_msgs::[01;31m[Kmsg[m[K::String::SharedPtr msg)
+      |                                         [01;31m[K^~~[m[K
+      |                                            [32m[K;[m[K
+[01m[K/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/src/pubs_and_subs/src/subscriber-main.cpp:30:46:[m[K [01;31m[Kerror: [m[K‘[01m[KString[m[K’ in namespace ‘[01m[K::[m[K’ does not name a type
+   30 |   void topic_callback_2(const std_msgs::msg::[01;31m[KString[m[K::SharedPtr msg)
+      |                                              [01;31m[K^~~~~~[m[K
+[01m[K/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/src/pubs_and_subs/src/subscriber-main.cpp:53:40:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd_msgs[m[K’ was not declared in this scope
+   53 |   std::unique_ptr<rclcpp::Subscription<[01;31m[Kstd_msgs[m[K::msg::String>> subscription_1_;
+      |                                        [01;31m[K^~~~~~~~[m[K
+[01m[K/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/src/pubs_and_subs/src/subscriber-main.cpp:53:61:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   53 |   std::unique_ptr<rclcpp::Subscription<std_msgs::msg::String[01;31m[K>>[m[K subscription_1_;
+      |                                                             [01;31m[K^~[m[K
+[01m[K/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/src/pubs_and_subs/src/subscriber-main.cpp:53:61:[m[K [01;31m[Kerror: [m[Ktemplate argument 3 is invalid
+[01m[K/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/src/pubs_and_subs/src/subscriber-main.cpp:53:64:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   53 |   std::unique_ptr<rclcpp::Subscription<std_msgs::msg::String>> [01;31m[Ksubscription_1_[m[K;
+      |                                                                [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/src/pubs_and_subs/src/subscriber-main.cpp:53:64:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[01m[K/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/src/pubs_and_subs/src/subscriber-main.cpp:54:40:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd_msgs[m[K’ was not declared in this scope
+   54 |   std::unique_ptr<rclcpp::Subscription<[01;31m[Kstd_msgs[m[K::msg::String>> subscription_2_;
+      |                                        [01;31m[K^~~~~~~~[m[K
+[01m[K/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/src/pubs_and_subs/src/subscriber-main.cpp:54:61:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   54 |   std::unique_ptr<rclcpp::Subscription<std_msgs::msg::String[01;31m[K>>[m[K subscription_2_;
+      |                                                             [01;31m[K^~[m[K
+[01m[K/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/src/pubs_and_subs/src/subscriber-main.cpp:54:61:[m[K [01;31m[Kerror: [m[Ktemplate argument 3 is invalid
+[01m[K/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/src/pubs_and_subs/src/subscriber-main.cpp:54:64:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   54 |   std::unique_ptr<rclcpp::Subscription<std_msgs::msg::String>> [01;31m[Ksubscription_2_[m[K;
+      |                                                                [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/src/pubs_and_subs/src/subscriber-main.cpp:54:64:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[01m[K/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/src/pubs_and_subs/src/subscriber-main.cpp:[m[K In constructor ‘[01m[KMySubscriber::MySubscriber()[m[K’:
+[01m[K/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/src/pubs_and_subs/src/subscriber-main.cpp:12:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_1_[m[K’ was not declared in this scope; did you mean ‘[01m[Krcl_subscription_t[m[K’?
+   12 |     [01;31m[Ksubscription_1_[m[K = this->create_subscription<std_msgs::msg::String>(
+      |     [01;31m[K^~~~~~~~~~~~~~~[m[K
+      |     [32m[Krcl_subscription_t[m[K
+[01m[K/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/src/pubs_and_subs/src/subscriber-main.cpp:12:49:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd_msgs[m[K’ was not declared in this scope
+   12 |     subscription_1_ = this->create_subscription<[01;31m[Kstd_msgs[m[K::msg::String>(
+      |                                                 [01;31m[K^~~~~~~~[m[K
+[01m[K/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/src/pubs_and_subs/src/subscriber-main.cpp:12:29:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+   12 |     subscription_1_ = this->[01;31m[Kcreate_subscription<std_msgs::msg::String>[m[K(
+      |                             [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/src/pubs_and_subs/src/subscriber-main.cpp:13:93:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KMySubscriber::create_subscription<<expression error> >(const char [8], int, std::_Bind_helper<false, void (MySubscriber::*)(...), MySubscriber*, const std::_Placeholder<1>&>::type)[m[K’
+   13 |       "topic_1", 10, std::bind(&MySubscriber::topic_callback_1, this, std::placeholders::_1)[01;31m[K)[m[K;
+      |                                                                                             [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+                 from [01m[K/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/src/pubs_and_subs/src/subscriber-main.cpp:4[m[K:
+[01m[K/opt/ros/foxy/include/rclcpp/node.hpp:213:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class CallbackT, class AllocatorT, class CallbackMessageT, class SubscriptionT, class MessageMemoryStrategyT> std::shared_ptr<SubscriptionT> rclcpp::Node::create_subscription(const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr)[m[K’
+  213 |   [01;36m[Kcreate_subscription[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/foxy/include/rclcpp/node.hpp:213:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/src/pubs_and_subs/src/subscriber-main.cpp:13:93:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   13 |       "topic_1", 10, std::bind(&MySubscriber::topic_callback_1, this, std::placeholders::_1)[01;31m[K)[m[K;
+      |                                                                                             [01;31m[K^[m[K
+[01m[K/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/src/pubs_and_subs/src/subscriber-main.cpp:15:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_2_[m[K’ was not declared in this scope; did you mean ‘[01m[Krcl_subscription_t[m[K’?
+   15 |     [01;31m[Ksubscription_2_[m[K = this->create_subscription<std_msgs::msg::String>(
+      |     [01;31m[K^~~~~~~~~~~~~~~[m[K
+      |     [32m[Krcl_subscription_t[m[K
+[01m[K/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/src/pubs_and_subs/src/subscriber-main.cpp:15:29:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+   15 |     subscription_2_ = this->[01;31m[Kcreate_subscription<std_msgs::msg::String>[m[K(
+      |                             [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/src/pubs_and_subs/src/subscriber-main.cpp:16:93:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KMySubscriber::create_subscription<std_msgs>(const char [8], int, std::_Bind_helper<false, void (MySubscriber::*)(...), MySubscriber*, const std::_Placeholder<1>&>::type)[m[K’
+   16 |       "topic_2", 10, std::bind(&MySubscriber::topic_callback_2, this, std::placeholders::_1)[01;31m[K)[m[K;
+      |                                                                                             [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+                 from [01m[K/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/src/pubs_and_subs/src/subscriber-main.cpp:4[m[K:
+[01m[K/opt/ros/foxy/include/rclcpp/node.hpp:213:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class CallbackT, class AllocatorT, class CallbackMessageT, class SubscriptionT, class MessageMemoryStrategyT> std::shared_ptr<SubscriptionT> rclcpp::Node::create_subscription(const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr)[m[K’
+  213 |   [01;36m[Kcreate_subscription[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/foxy/include/rclcpp/node.hpp:213:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+make[2]: *** [CMakeFiles/listener.dir/build.make:63: CMakeFiles/listener.dir/src/subscriber-main.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:82: CMakeFiles/listener.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

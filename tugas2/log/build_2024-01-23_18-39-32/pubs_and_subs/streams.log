@@ -1,0 +1,19 @@
+[0.075s] Invoking command in '/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/build/pubs_and_subs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/build/pubs_and_subs -- -j4 -l4
+[0.130s] [35m[1mScanning dependencies of target listener[0m
+[0.154s] [ 33%] Built target talker2
+[0.158s] [ 66%] Built target talker1
+[0.179s] [ 83%] [32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber-main.cpp.o[0m
+[1.141s] [01m[K/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/src/pubs_and_subs/src/subscriber-main.cpp:[m[K In member function ‘[01m[Kvoid MinimalSubscriber::topic_callback1(std_msgs::msg::String_<std::allocator<void> >::SharedPtr)[m[K’:
+[1.141s] [01m[K/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/src/pubs_and_subs/src/subscriber-main.cpp:37:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kcheck_publisher_states[m[K’ was not declared in this scope; did you mean ‘[01m[Kcheck_publisherstates[m[K’?
+[1.141s]    37 |     [01;31m[Kcheck_publisher_states[m[K();
+[1.141s]       |     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.141s]       |     [32m[Kcheck_publisherstates[m[K
+[1.141s] [01m[K/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/src/pubs_and_subs/src/subscriber-main.cpp:[m[K In member function ‘[01m[Kvoid MinimalSubscriber::topic_callback2(std_msgs::msg::String_<std::allocator<void> >::SharedPtr)[m[K’:
+[1.141s] [01m[K/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/src/pubs_and_subs/src/subscriber-main.cpp:48:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kcheck_publisher_states[m[K’ was not declared in this scope; did you mean ‘[01m[Kcheck_publisherstates[m[K’?
+[1.141s]    48 |     [01;31m[Kcheck_publisher_states[m[K();
+[1.141s]       |     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.141s]       |     [32m[Kcheck_publisherstates[m[K
+[1.886s] make[2]: *** [CMakeFiles/listener.dir/build.make:63: CMakeFiles/listener.dir/src/subscriber-main.cpp.o] Error 1
+[1.886s] make[1]: *** [CMakeFiles/Makefile2:82: CMakeFiles/listener.dir/all] Error 2
+[1.887s] make: *** [Makefile:141: all] Error 2
+[1.893s] Invoked command in '/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/build/pubs_and_subs' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/build/pubs_and_subs -- -j4 -l4

@@ -1,0 +1,137 @@
+[0.000000] (-) TimerEvent: {}
+[0.000114] (pubs_and_subs) JobQueued: {'identifier': 'pubs_and_subs', 'dependencies': OrderedDict()}
+[0.000149] (pubs_and_subs) JobStarted: {'identifier': 'pubs_and_subs'}
+[0.073104] (pubs_and_subs) JobProgress: {'identifier': 'pubs_and_subs', 'progress': 'cmake'}
+[0.074092] (pubs_and_subs) JobProgress: {'identifier': 'pubs_and_subs', 'progress': 'build'}
+[0.074612] (pubs_and_subs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/build/pubs_and_subs', '--', '-j4', '-l4'], 'cwd': '/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/build/pubs_and_subs', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'danscarryus'), ('SSH_AGENT_PID', '1877'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/danscarryus'), ('OLDPWD', '/home/danscarryus/InternRos2/MagangBayu24-ROS2'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1689'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'danscarryus'), ('JOURNAL_STREAM', '9:42514'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'danscarryus'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntuonm2:@/tmp/.ICE-unix/1931,unix/ubuntuonm2:/tmp/.ICE-unix/1931'), ('INVOCATION_ID', 'e1e6829060524177b02252a71b681b5b'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/af8e0cc2_adaf_45a5_ba2c_732bb28fd243'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.724'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/install/pubs_and_subs:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/build/pubs_and_subs'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/install/pubs_and_subs:/opt/ros/foxy')]), 'shell': False}
+[0.099508] (-) TimerEvent: {}
+[0.199824] (-) TimerEvent: {}
+[0.300043] (pubs_and_subs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target listener\x1b[0m\n'}
+[0.300321] (-) TimerEvent: {}
+[0.325134] (pubs_and_subs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target talker2\x1b[0m\n'}
+[0.334267] (pubs_and_subs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target talker1\x1b[0m\n'}
+[0.360646] (pubs_and_subs) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/talker2.dir/src/publisher-2.cpp.o\x1b[0m\n'}
+[0.364433] (pubs_and_subs) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/talker1.dir/src/publisher-1.cpp.o\x1b[0m\n'}
+[0.369735] (pubs_and_subs) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber-main.cpp.o\x1b[0m\n'}
+[0.400495] (-) TimerEvent: {}
+[0.501619] (-) TimerEvent: {}
+[0.602176] (-) TimerEvent: {}
+[0.703022] (-) TimerEvent: {}
+[0.804526] (-) TimerEvent: {}
+[0.905510] (-) TimerEvent: {}
+[1.006251] (-) TimerEvent: {}
+[1.107182] (-) TimerEvent: {}
+[1.207992] (-) TimerEvent: {}
+[1.308664] (-) TimerEvent: {}
+[1.413489] (-) TimerEvent: {}
+[1.514750] (-) TimerEvent: {}
+[1.627057] (-) TimerEvent: {}
+[1.729563] (-) TimerEvent: {}
+[1.845688] (-) TimerEvent: {}
+[1.946539] (-) TimerEvent: {}
+[2.051956] (-) TimerEvent: {}
+[2.153678] (-) TimerEvent: {}
+[2.269327] (-) TimerEvent: {}
+[2.381611] (-) TimerEvent: {}
+[2.482724] (-) TimerEvent: {}
+[2.583636] (-) TimerEvent: {}
+[2.685923] (-) TimerEvent: {}
+[2.789911] (-) TimerEvent: {}
+[2.890735] (-) TimerEvent: {}
+[2.991888] (-) TimerEvent: {}
+[3.093078] (-) TimerEvent: {}
+[3.201144] (-) TimerEvent: {}
+[3.309380] (-) TimerEvent: {}
+[3.410669] (-) TimerEvent: {}
+[3.513429] (-) TimerEvent: {}
+[3.619614] (-) TimerEvent: {}
+[3.722381] (-) TimerEvent: {}
+[3.823106] (-) TimerEvent: {}
+[3.923830] (-) TimerEvent: {}
+[4.026095] (-) TimerEvent: {}
+[4.129801] (-) TimerEvent: {}
+[4.231030] (-) TimerEvent: {}
+[4.335008] (-) TimerEvent: {}
+[4.437225] (-) TimerEvent: {}
+[4.540469] (-) TimerEvent: {}
+[4.641941] (-) TimerEvent: {}
+[4.742761] (-) TimerEvent: {}
+[4.844040] (-) TimerEvent: {}
+[4.957244] (-) TimerEvent: {}
+[5.058294] (-) TimerEvent: {}
+[5.161475] (-) TimerEvent: {}
+[5.263120] (-) TimerEvent: {}
+[5.365458] (-) TimerEvent: {}
+[5.472021] (-) TimerEvent: {}
+[5.581196] (-) TimerEvent: {}
+[5.683216] (-) TimerEvent: {}
+[5.784347] (-) TimerEvent: {}
+[5.885445] (-) TimerEvent: {}
+[5.986201] (-) TimerEvent: {}
+[6.086890] (-) TimerEvent: {}
+[6.188285] (-) TimerEvent: {}
+[6.289595] (-) TimerEvent: {}
+[6.391024] (-) TimerEvent: {}
+[6.491829] (-) TimerEvent: {}
+[6.592634] (-) TimerEvent: {}
+[6.694188] (-) TimerEvent: {}
+[6.795776] (-) TimerEvent: {}
+[6.897497] (-) TimerEvent: {}
+[6.998556] (-) TimerEvent: {}
+[7.100034] (-) TimerEvent: {}
+[7.202245] (-) TimerEvent: {}
+[7.303373] (-) TimerEvent: {}
+[7.404060] (-) TimerEvent: {}
+[7.424830] (pubs_and_subs) StdoutLine: {'line': b'[ 83%] \x1b[32m\x1b[1mLinking CXX executable talker1\x1b[0m\n'}
+[7.432188] (pubs_and_subs) StdoutLine: {'line': b'[ 83%] \x1b[32m\x1b[1mLinking CXX executable talker2\x1b[0m\n'}
+[7.504216] (-) TimerEvent: {}
+[7.605068] (-) TimerEvent: {}
+[7.698268] (pubs_and_subs) StdoutLine: {'line': b'[ 83%] Built target talker2\n'}
+[7.699237] (pubs_and_subs) StdoutLine: {'line': b'[ 83%] Built target talker1\n'}
+[7.705560] (-) TimerEvent: {}
+[7.805870] (-) TimerEvent: {}
+[7.908854] (-) TimerEvent: {}
+[8.009198] (-) TimerEvent: {}
+[8.113869] (-) TimerEvent: {}
+[8.215971] (-) TimerEvent: {}
+[8.316686] (-) TimerEvent: {}
+[8.417662] (-) TimerEvent: {}
+[8.518410] (-) TimerEvent: {}
+[8.618837] (-) TimerEvent: {}
+[8.719418] (-) TimerEvent: {}
+[8.794366] (pubs_and_subs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable listener\x1b[0m\n'}
+[8.819579] (-) TimerEvent: {}
+[8.919996] (-) TimerEvent: {}
+[8.944559] (pubs_and_subs) StdoutLine: {'line': b'[100%] Built target listener\n'}
+[8.963695] (pubs_and_subs) CommandEnded: {'returncode': 0}
+[8.999582] (pubs_and_subs) JobProgress: {'identifier': 'pubs_and_subs', 'progress': 'install'}
+[9.008817] (pubs_and_subs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/build/pubs_and_subs'], 'cwd': '/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/build/pubs_and_subs', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'danscarryus'), ('SSH_AGENT_PID', '1877'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/danscarryus'), ('OLDPWD', '/home/danscarryus/InternRos2/MagangBayu24-ROS2'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1689'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'danscarryus'), ('JOURNAL_STREAM', '9:42514'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'danscarryus'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntuonm2:@/tmp/.ICE-unix/1931,unix/ubuntuonm2:/tmp/.ICE-unix/1931'), ('INVOCATION_ID', 'e1e6829060524177b02252a71b681b5b'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/af8e0cc2_adaf_45a5_ba2c_732bb28fd243'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.724'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/install/pubs_and_subs:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/build/pubs_and_subs'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/install/pubs_and_subs:/opt/ros/foxy')]), 'shell': False}
+[9.014108] (pubs_and_subs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[9.017071] (pubs_and_subs) StdoutLine: {'line': b'-- Installing: /home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/install/pubs_and_subs/lib/pubs_and_subs/talker1\n'}
+[9.018406] (pubs_and_subs) StdoutLine: {'line': b'-- Set runtime path of "/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/install/pubs_and_subs/lib/pubs_and_subs/talker1" to ""\n'}
+[9.019325] (pubs_and_subs) StdoutLine: {'line': b'-- Installing: /home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/install/pubs_and_subs/lib/pubs_and_subs/talker2\n'}
+[9.020067] (-) TimerEvent: {}
+[9.020598] (pubs_and_subs) StdoutLine: {'line': b'-- Set runtime path of "/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/install/pubs_and_subs/lib/pubs_and_subs/talker2" to ""\n'}
+[9.021506] (pubs_and_subs) StdoutLine: {'line': b'-- Installing: /home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/install/pubs_and_subs/lib/pubs_and_subs/listener\n'}
+[9.022848] (pubs_and_subs) StdoutLine: {'line': b'-- Set runtime path of "/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/install/pubs_and_subs/lib/pubs_and_subs/listener" to ""\n'}
+[9.024297] (pubs_and_subs) StdoutLine: {'line': b'-- Up-to-date: /home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/install/pubs_and_subs/share/ament_index/resource_index/package_run_dependencies/pubs_and_subs\n'}
+[9.024527] (pubs_and_subs) StdoutLine: {'line': b'-- Up-to-date: /home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/install/pubs_and_subs/share/ament_index/resource_index/parent_prefix_path/pubs_and_subs\n'}
+[9.025931] (pubs_and_subs) StdoutLine: {'line': b'-- Up-to-date: /home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/install/pubs_and_subs/share/pubs_and_subs/environment/ament_prefix_path.sh\n'}
+[9.026090] (pubs_and_subs) StdoutLine: {'line': b'-- Up-to-date: /home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/install/pubs_and_subs/share/pubs_and_subs/environment/ament_prefix_path.dsv\n'}
+[9.026164] (pubs_and_subs) StdoutLine: {'line': b'-- Up-to-date: /home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/install/pubs_and_subs/share/pubs_and_subs/environment/path.sh\n'}
+[9.026253] (pubs_and_subs) StdoutLine: {'line': b'-- Up-to-date: /home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/install/pubs_and_subs/share/pubs_and_subs/environment/path.dsv\n'}
+[9.026298] (pubs_and_subs) StdoutLine: {'line': b'-- Up-to-date: /home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/install/pubs_and_subs/share/pubs_and_subs/local_setup.bash\n'}
+[9.026362] (pubs_and_subs) StdoutLine: {'line': b'-- Up-to-date: /home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/install/pubs_and_subs/share/pubs_and_subs/local_setup.sh\n'}
+[9.026393] (pubs_and_subs) StdoutLine: {'line': b'-- Up-to-date: /home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/install/pubs_and_subs/share/pubs_and_subs/local_setup.zsh\n'}
+[9.026445] (pubs_and_subs) StdoutLine: {'line': b'-- Up-to-date: /home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/install/pubs_and_subs/share/pubs_and_subs/local_setup.dsv\n'}
+[9.026472] (pubs_and_subs) StdoutLine: {'line': b'-- Installing: /home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/install/pubs_and_subs/share/pubs_and_subs/package.dsv\n'}
+[9.027119] (pubs_and_subs) StdoutLine: {'line': b'-- Up-to-date: /home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/install/pubs_and_subs/share/ament_index/resource_index/packages/pubs_and_subs\n'}
+[9.027572] (pubs_and_subs) StdoutLine: {'line': b'-- Up-to-date: /home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/install/pubs_and_subs/share/pubs_and_subs/cmake/pubs_and_subsConfig.cmake\n'}
+[9.027700] (pubs_and_subs) StdoutLine: {'line': b'-- Up-to-date: /home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/install/pubs_and_subs/share/pubs_and_subs/cmake/pubs_and_subsConfig-version.cmake\n'}
+[9.028043] (pubs_and_subs) StdoutLine: {'line': b'-- Up-to-date: /home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/install/pubs_and_subs/share/pubs_and_subs/package.xml\n'}
+[9.029731] (pubs_and_subs) CommandEnded: {'returncode': 0}
+[9.120734] (-) TimerEvent: {}
+[9.221761] (-) TimerEvent: {}
+[9.323847] (-) TimerEvent: {}
+[9.355943] (pubs_and_subs) JobEnded: {'identifier': 'pubs_and_subs', 'rc': 0}
+[9.358385] (-) EventReactorShutdown: {}

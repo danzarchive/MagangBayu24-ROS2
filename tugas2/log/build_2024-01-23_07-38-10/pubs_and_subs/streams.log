@@ -1,0 +1,11 @@
+[0.077s] Invoking command in '/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/build/pubs_and_subs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/build/pubs_and_subs -- -j4 -l4
+[0.257s] [35m[1mScanning dependencies of target listener[0m
+[0.257s] [35m[1mScanning dependencies of target talker[0m
+[0.272s] make[2]: *** No rule to make target '/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/src/pubs_and_subs/src/publisher_member_function.cpp', needed by 'CMakeFiles/talker.dir/src/publisher_member_function.cpp.o'.  Stop.
+[0.273s] make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/talker.dir/all] Error 2
+[0.273s] make[1]: *** Waiting for unfinished jobs....
+[0.329s] [ 25%] [32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o[0m
+[3.569s] [ 50%] [32m[1mLinking CXX executable listener[0m
+[3.812s] [ 50%] Built target listener
+[3.813s] make: *** [Makefile:141: all] Error 2
+[3.820s] Invoked command in '/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/build/pubs_and_subs' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/build/pubs_and_subs -- -j4 -l4

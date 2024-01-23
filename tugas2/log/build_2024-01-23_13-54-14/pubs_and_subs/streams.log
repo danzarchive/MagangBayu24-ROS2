@@ -1,0 +1,49 @@
+[0.055s] Invoking command in '/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/build/pubs_and_subs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/build/pubs_and_subs -- -j4 -l4
+[0.179s] [35m[1mScanning dependencies of target listener[0m
+[0.179s] [35m[1mScanning dependencies of target talker1[0m
+[0.190s] [35m[1mScanning dependencies of target talker2[0m
+[0.227s] [ 16%] [32mBuilding CXX object CMakeFiles/talker1.dir/src/publisher-1.cpp.o[0m
+[0.227s] [ 33%] [32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber-main.cpp.o[0m
+[0.235s] [ 50%] [32mBuilding CXX object CMakeFiles/talker2.dir/src/publisher-2.cpp.o[0m
+[2.237s] [01m[K/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/src/pubs_and_subs/src/subscriber-main.cpp:[m[K In constructor ‘[01m[KMySubscriber::MySubscriber()[m[K’:
+[2.242s] [01m[K/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/src/pubs_and_subs/src/subscriber-main.cpp:11:28:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[KMySubscriber[m[K’ does not have any field named ‘[01m[Kcount[m[K’
+[2.242s]    11 |   : Node("my_subscriber"), [01;31m[Kcount[m[K(0)
+[2.242s]       |                            [01;31m[K^~~~~[m[K
+[2.243s] [01m[K/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/src/pubs_and_subs/src/subscriber-main.cpp:11:35:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::QoS::QoS()[m[K’
+[2.243s]    11 |   : Node("my_subscriber"), count(0[01;31m[K)[m[K
+[2.243s]       |                                   [01;31m[K^[m[K
+[2.243s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/node_interfaces/node_graph_interface.hpp:31[m[K,
+[2.243s]                  from [01m[K/opt/ros/foxy/include/rclcpp/client.hpp:34[m[K,
+[2.243s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23[m[K,
+[2.243s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[2.243s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[2.244s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[2.244s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[2.244s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[2.244s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[2.244s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[2.244s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[2.244s]                  from [01m[K/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/src/pubs_and_subs/src/subscriber-main.cpp:4[m[K:
+[2.244s] [01m[K/opt/ros/foxy/include/rclcpp/qos.hpp:74:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::QoS::QoS(size_t)[m[K’
+[2.244s]    74 |   [01;36m[KQoS[m[K(size_t history_depth);  // NOLINT(runtime/explicit): conversion constructor
+[2.245s]       |   [01;36m[K^~~[m[K
+[2.245s] [01m[K/opt/ros/foxy/include/rclcpp/qos.hpp:74:3:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[2.245s] [01m[K/opt/ros/foxy/include/rclcpp/qos.hpp:65:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::QoS::QoS(const rclcpp::QoSInitialization&, const rmw_qos_profile_t&)[m[K’
+[2.245s]    65 |   [01;36m[KQoS[m[K(
+[2.245s]       |   [01;36m[K^~~[m[K
+[2.245s] [01m[K/opt/ros/foxy/include/rclcpp/qos.hpp:65:3:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 0 provided
+[2.245s] [01m[K/opt/ros/foxy/include/rclcpp/qos.hpp:60:21:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr rclcpp::QoS::QoS(const rclcpp::QoS&)[m[K’
+[2.245s]    60 | class RCLCPP_PUBLIC [01;36m[KQoS[m[K
+[2.245s]       |                     [01;36m[K^~~[m[K
+[2.245s] [01m[K/opt/ros/foxy/include/rclcpp/qos.hpp:60:21:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[2.246s] [01m[K/opt/ros/foxy/include/rclcpp/qos.hpp:60:21:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr rclcpp::QoS::QoS(rclcpp::QoS&&)[m[K’
+[2.246s] [01m[K/opt/ros/foxy/include/rclcpp/qos.hpp:60:21:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[5.368s] [ 66%] [32m[1mLinking CXX executable talker2[0m
+[5.495s] make[2]: *** [CMakeFiles/listener.dir/build.make:63: CMakeFiles/listener.dir/src/subscriber-main.cpp.o] Error 1
+[5.497s] make[1]: *** [CMakeFiles/Makefile2:82: CMakeFiles/listener.dir/all] Error 2
+[5.498s] make[1]: *** Waiting for unfinished jobs....
+[5.502s] [ 83%] [32m[1mLinking CXX executable talker1[0m
+[5.563s] [ 83%] Built target talker2
+[5.619s] [ 83%] Built target talker1
+[5.620s] make: *** [Makefile:141: all] Error 2
+[5.626s] Invoked command in '/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/build/pubs_and_subs' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/build/pubs_and_subs -- -j4 -l4

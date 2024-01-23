@@ -1,0 +1,26 @@
+[0.075s] Invoking command in '/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/build/pubs_and_subs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/build/pubs_and_subs -- -j4 -l4
+[0.133s] [35m[1mScanning dependencies of target talker2[0m
+[0.157s] [ 33%] Built target talker1
+[0.166s] [ 66%] Built target listener
+[0.174s] [ 83%] [32mBuilding CXX object CMakeFiles/talker2.dir/src/publisher-2.cpp.o[0m
+[1.185s] [01m[K/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/src/pubs_and_subs/src/publisher-2.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[1.186s] [01m[K/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/src/pubs_and_subs/src/publisher-2.cpp:48:38:[m[K [01;31m[Kerror: [m[K‘[01m[KMySubscriber[m[K’ was not declared in this scope; did you mean ‘[01m[Ksubscriber[m[K’?
+[1.188s]    48 |   auto subscriber = std::make_shared<[01;31m[KMySubscriber[m[K>();
+[1.189s]       |                                      [01;31m[K^~~~~~~~~~~~[m[K
+[1.189s]       |                                      [32m[Ksubscriber[m[K
+[1.190s] [01m[K/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/src/pubs_and_subs/src/publisher-2.cpp:48:52:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmake_shared<<expression error> >()[m[K’
+[1.190s]    48 |   auto subscriber = std::make_shared<MySubscriber>([01;31m[K)[m[K;
+[1.191s]       |                                                    [01;31m[K^[m[K
+[1.191s] In file included from [01m[K/usr/include/c++/9/memory:81[m[K,
+[1.191s]                  from [01m[K/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/src/pubs_and_subs/src/publisher-2.cpp:2[m[K:
+[1.191s] [01m[K/usr/include/c++/9/bits/shared_ptr.h:714:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class ... _Args> std::shared_ptr<_Tp> std::make_shared(_Args&& ...)[m[K’
+[1.191s]   714 |     [01;36m[Kmake_shared[m[K(_Args&&... __args)
+[1.191s]       |     [01;36m[K^~~~~~~~~~~[m[K
+[1.191s] [01m[K/usr/include/c++/9/bits/shared_ptr.h:714:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.191s] [01m[K/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/src/pubs_and_subs/src/publisher-2.cpp:48:52:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.191s]    48 |   auto subscriber = std::make_shared<MySubscriber>([01;31m[K)[m[K;
+[1.192s]       |                                                    [01;31m[K^[m[K
+[1.892s] make[2]: *** [CMakeFiles/talker2.dir/build.make:63: CMakeFiles/talker2.dir/src/publisher-2.cpp.o] Error 1
+[1.892s] make[1]: *** [CMakeFiles/Makefile2:109: CMakeFiles/talker2.dir/all] Error 2
+[1.893s] make: *** [Makefile:141: all] Error 2
+[1.917s] Invoked command in '/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/build/pubs_and_subs' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/build/pubs_and_subs -- -j4 -l4

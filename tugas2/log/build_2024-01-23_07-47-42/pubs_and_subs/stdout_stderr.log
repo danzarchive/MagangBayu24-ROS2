@@ -1,0 +1,21 @@
+[35m[1mScanning dependencies of target talker2[0m
+[ 66%] Built target listener
+[ 66%] Built target talker1
+[ 83%] [32mBuilding CXX object CMakeFiles/talker2.dir/src/publisher-2.cpp.o[0m
+[01m[K/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/src/pubs_and_subs/src/publisher-2.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/src/pubs_and_subs/src/publisher-2.cpp:47:15:[m[K [01;31m[Kerror: [m[Kfound ‘[01m[K:[m[K’ in nested-name-specifier, expected ‘[01m[K::[m[K’
+   47 |   rclcpp::spin[01;31m[K:[m[Kstd::make_shared<MyPublisher>();
+      |               [01;31m[K^[m[K
+      |               [32m[K::[m[K
+[01m[K/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/src/pubs_and_subs/src/publisher-2.cpp:47:11:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp::spin[m[K’ is not a class, namespace, or enumeration
+   47 |   rclcpp::[01;31m[Kspin[m[K:std::make_shared<MyPublisher>();
+      |           [01;31m[K^~~~[m[K
+[01m[K/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/src/pubs_and_subs/src/publisher-2.cpp:47:44:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+   47 |   rclcpp::spin:std::make_shared<MyPublisher[01;31m[K>[m[K();
+      |                                            [01;31m[K^[m[K
+[01m[K/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/src/pubs_and_subs/src/publisher-2.cpp:47:46:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K)[m[K’ token
+   47 |   rclcpp::spin:std::make_shared<MyPublisher>([01;31m[K)[m[K;
+      |                                              [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/talker2.dir/build.make:63: CMakeFiles/talker2.dir/src/publisher-2.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:109: CMakeFiles/talker2.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

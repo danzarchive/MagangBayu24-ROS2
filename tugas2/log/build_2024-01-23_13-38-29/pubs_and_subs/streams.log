@@ -1,0 +1,71 @@
+[0.066s] Invoking command in '/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/build/pubs_and_subs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/build/pubs_and_subs -- -j4 -l4
+[0.177s] [35m[1mScanning dependencies of target listener[0m
+[0.177s] [35m[1mScanning dependencies of target talker2[0m
+[0.186s] [35m[1mScanning dependencies of target talker1[0m
+[0.204s] [ 16%] [32mBuilding CXX object CMakeFiles/talker1.dir/src/publisher-1.cpp.o[0m
+[0.204s] [ 33%] [32mBuilding CXX object CMakeFiles/talker2.dir/src/publisher-2.cpp.o[0m
+[0.208s] [ 50%] [32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber-main.cpp.o[0m
+[1.958s] [01m[K/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/src/pubs_and_subs/src/subscriber-main.cpp:[m[K In constructor ‘[01m[KMySubscriber::MySubscriber()[m[K’:
+[1.960s] [01m[K/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/src/pubs_and_subs/src/subscriber-main.cpp:11:25:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::QoS::QoS()[m[K’
+[1.960s]    11 |   : Node("my_subscriber"[01;31m[K)[m[K
+[1.961s]       |                         [01;31m[K^[m[K
+[1.961s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/node_interfaces/node_graph_interface.hpp:31[m[K,
+[1.961s]                  from [01m[K/opt/ros/foxy/include/rclcpp/client.hpp:34[m[K,
+[1.961s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23[m[K,
+[1.961s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[1.961s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[1.961s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[1.961s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[1.961s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[1.961s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[1.961s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[1.962s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[1.962s]                  from [01m[K/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/src/pubs_and_subs/src/subscriber-main.cpp:4[m[K:
+[1.962s] [01m[K/opt/ros/foxy/include/rclcpp/qos.hpp:74:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::QoS::QoS(size_t)[m[K’
+[1.962s]    74 |   [01;36m[KQoS[m[K(size_t history_depth);  // NOLINT(runtime/explicit): conversion constructor
+[1.962s]       |   [01;36m[K^~~[m[K
+[1.962s] [01m[K/opt/ros/foxy/include/rclcpp/qos.hpp:74:3:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[1.962s] [01m[K/opt/ros/foxy/include/rclcpp/qos.hpp:65:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::QoS::QoS(const rclcpp::QoSInitialization&, const rmw_qos_profile_t&)[m[K’
+[1.962s]    65 |   [01;36m[KQoS[m[K(
+[1.962s]       |   [01;36m[K^~~[m[K
+[1.962s] [01m[K/opt/ros/foxy/include/rclcpp/qos.hpp:65:3:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 0 provided
+[1.962s] [01m[K/opt/ros/foxy/include/rclcpp/qos.hpp:60:21:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr rclcpp::QoS::QoS(const rclcpp::QoS&)[m[K’
+[1.963s]    60 | class RCLCPP_PUBLIC [01;36m[KQoS[m[K
+[1.963s]       |                     [01;36m[K^~~[m[K
+[1.963s] [01m[K/opt/ros/foxy/include/rclcpp/qos.hpp:60:21:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[1.963s] [01m[K/opt/ros/foxy/include/rclcpp/qos.hpp:60:21:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr rclcpp::QoS::QoS(rclcpp::QoS&&)[m[K’
+[1.963s] [01m[K/opt/ros/foxy/include/rclcpp/qos.hpp:60:21:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[2.093s] [01m[K/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/src/pubs_and_subs/src/publisher-2.cpp:[m[K In constructor ‘[01m[KMyPublisher2::MyPublisher2()[m[K’:
+[2.093s] [01m[K/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/src/pubs_and_subs/src/publisher-2.cpp:16:43:[m[K [01;31m[Kerror: [m[Kunable to find numeric literal operator ‘[01m[Koperator""s[m[K’
+[2.093s]    16 |       std::chrono::steady_clock::duration([01;31m[K1s[m[K),
+[2.093s]       |                                           [01;31m[K^~[m[K
+[2.147s] [01m[K/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/src/pubs_and_subs/src/publisher-2.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[2.147s] [01m[K/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/src/pubs_and_subs/src/publisher-2.cpp:40:33:[m[K [01;31m[Kerror: [m[K‘[01m[KMyPublisher1[m[K’ was not declared in this scope; did you mean ‘[01m[KMyPublisher2[m[K’?
+[2.147s]    40 |   rclcpp::spin(std::make_shared<[01;31m[KMyPublisher1[m[K>());
+[2.148s]       |                                 [01;31m[K^~~~~~~~~~~~[m[K
+[2.148s]       |                                 [32m[KMyPublisher2[m[K
+[2.148s] [01m[K/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/src/pubs_and_subs/src/publisher-2.cpp:40:47:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmake_shared<<expression error> >()[m[K’
+[2.148s]    40 |   rclcpp::spin(std::make_shared<MyPublisher1>([01;31m[K)[m[K);
+[2.148s]       |                                               [01;31m[K^[m[K
+[2.148s] In file included from [01m[K/usr/include/c++/9/memory:81[m[K,
+[2.148s]                  from [01m[K/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/src/pubs_and_subs/src/publisher-2.cpp:1[m[K:
+[2.148s] [01m[K/usr/include/c++/9/bits/shared_ptr.h:714:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class ... _Args> std::shared_ptr<_Tp> std::make_shared(_Args&& ...)[m[K’
+[2.148s]   714 |     [01;36m[Kmake_shared[m[K(_Args&&... __args)
+[2.148s]       |     [01;36m[K^~~~~~~~~~~[m[K
+[2.149s] [01m[K/usr/include/c++/9/bits/shared_ptr.h:714:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.149s] [01m[K/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/src/pubs_and_subs/src/publisher-2.cpp:40:47:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.149s]    40 |   rclcpp::spin(std::make_shared<MyPublisher1>([01;31m[K)[m[K);
+[2.149s]       |                                               [01;31m[K^[m[K
+[2.244s] [01m[K/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/src/pubs_and_subs/src/publisher-1.cpp:[m[K In constructor ‘[01m[KMyPublisher1::MyPublisher1()[m[K’:
+[2.245s] [01m[K/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/src/pubs_and_subs/src/publisher-1.cpp:16:43:[m[K [01;31m[Kerror: [m[Kunable to find numeric literal operator ‘[01m[Koperator""s[m[K’
+[2.245s]    16 |       std::chrono::steady_clock::duration([01;31m[K1s[m[K),
+[2.245s]       |                                           [01;31m[K^~[m[K
+[4.015s] make[2]: *** [CMakeFiles/talker2.dir/build.make:63: CMakeFiles/talker2.dir/src/publisher-2.cpp.o] Error 1
+[4.016s] make[1]: *** [CMakeFiles/Makefile2:109: CMakeFiles/talker2.dir/all] Error 2
+[4.016s] make[1]: *** Waiting for unfinished jobs....
+[4.195s] make[2]: *** [CMakeFiles/talker1.dir/build.make:63: CMakeFiles/talker1.dir/src/publisher-1.cpp.o] Error 1
+[4.196s] make[1]: *** [CMakeFiles/Makefile2:136: CMakeFiles/talker1.dir/all] Error 2
+[4.771s] make[2]: *** [CMakeFiles/listener.dir/build.make:63: CMakeFiles/listener.dir/src/subscriber-main.cpp.o] Error 1
+[4.772s] make[1]: *** [CMakeFiles/Makefile2:82: CMakeFiles/listener.dir/all] Error 2
+[4.776s] make: *** [Makefile:141: all] Error 2
+[4.785s] Invoked command in '/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/build/pubs_and_subs' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/build/pubs_and_subs -- -j4 -l4

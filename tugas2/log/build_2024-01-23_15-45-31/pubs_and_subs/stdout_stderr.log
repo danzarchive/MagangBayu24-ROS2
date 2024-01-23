@@ -1,0 +1,18 @@
+[35m[1mScanning dependencies of target listener[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber-main.cpp.o[0m
+[ 50%] Built target talker2
+[ 83%] Built target talker1
+[01m[K/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/src/pubs_and_subs/src/subscriber-main.cpp:[m[K In member function ‘[01m[Kvoid MySubscriber::topic_callback(std_msgs::msg::String_<std::allocator<void> >::SharedPtr) const[m[K’:
+[01m[K/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/src/pubs_and_subs/src/subscriber-main.cpp:35:5:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp::Node::SharedPtr[m[K’ {aka ‘[01m[Kstd::shared_ptr<rclcpp::Node>[m[K’} is not a template
+   35 |     [01;31m[Krclcpp[m[K::Node::SharedPtr<rclcpp::Node> const_this = this->shared_from_this();  // Create non-const pointer to the node
+      |     [01;31m[K^~~~~~[m[K
+[01m[K/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/src/pubs_and_subs/src/subscriber-main.cpp:35:78:[m[K [01;31m[Kerror: [m[Kconversion from ‘[01m[Kshared_ptr<[01;32m[Kconst rclcpp::Node[m[K>[m[K’ to non-scalar type ‘[01m[Kshared_ptr<[01;32m[Krclcpp::Node[m[K>[m[K’ requested
+   35 | ::SharedPtr<rclcpp::Node> const_this = [01;31m[Kthis->shared_from_this()[m[K;  // Create non-const pointer to the node
+      |                                        [01;31m[K~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+
+[01m[K/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/src/pubs_and_subs/src/subscriber-main.cpp:36:58:[m[K [01;31m[Kerror: [m[Kconversion from ‘[01m[Kshared_ptr<[01;32m[Kconst rclcpp::Clock[m[K>[m[K’ to non-scalar type ‘[01m[Kshared_ptr<[01;32m[Krclcpp::Clock[m[K>[m[K’ requested
+   36 |     rclcpp::Clock::SharedPtr clock_copy = [01;31m[Kthis->get_clock()[m[K;
+      |                                           [01;31m[K~~~~~~~~~~~~~~~^~[m[K
+make[2]: *** [CMakeFiles/listener.dir/build.make:63: CMakeFiles/listener.dir/src/subscriber-main.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:82: CMakeFiles/listener.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

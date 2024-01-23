@@ -1,0 +1,4 @@
+make[2]: *** No rule to make target '/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/src/pubs_and_subs/src/publisher_member_function.cpp', needed by 'CMakeFiles/talker.dir/src/publisher_member_function.cpp.o'.  Stop.
+make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/talker.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make: *** [Makefile:141: all] Error 2

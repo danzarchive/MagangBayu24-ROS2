@@ -1,0 +1,28 @@
+[0.051s] Invoking command in '/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/build/pubs_and_subs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/build/pubs_and_subs -- -j4 -l4
+[0.147s] [35m[1mScanning dependencies of target talker1[0m
+[0.160s] [ 16%] [32mBuilding CXX object CMakeFiles/talker2.dir/src/publisher-2.cpp.o[0m
+[0.162s] [ 33%] [32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber-main.cpp.o[0m
+[0.171s] [ 50%] [32mBuilding CXX object CMakeFiles/talker1.dir/src/publisher-1.cpp.o[0m
+[2.462s] [01m[K/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/src/pubs_and_subs/src/subscriber-main.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[2.464s] [01m[K/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/src/pubs_and_subs/src/subscriber-main.cpp:65:1:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K}[m[K’ token
+[2.464s]    65 | [01;31m[K}[m[K
+[2.464s]       | [01;31m[K^[m[K
+[2.489s] [01m[K/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/src/pubs_and_subs/src/publisher-2.cpp:[m[K In member function ‘[01m[Kvoid Publisher2::timer_callback()[m[K’:
+[2.489s] [01m[K/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/src/pubs_and_subs/src/publisher-2.cpp:23:35:[m[K [01;31m[Kerror: [m[Kinvalid operands of types ‘[01m[Kconst char [13][m[K’ and ‘[01m[Kconst char*[m[K’ to binary ‘[01m[Koperator+[m[K’
+[2.489s]    23 |     message.data = [32m[K"publisher-2-"[m[K [01;31m[K+[m[K [34m[K(count % 3 == 0 ? "true" : "false")[m[K;
+[2.490s]       |                    [32m[K~~~~~~~~~~~~~~[m[K [01;31m[K^[m[K [34m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.490s]       |                    [32m[K|[m[K                                [34m[K|[m[K
+[2.490s]       |                    [32m[Kconst char [13][m[K                  [34m[Kconst char*[m[K
+[2.572s] [01m[K/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/src/pubs_and_subs/src/publisher-1.cpp:[m[K In member function ‘[01m[Kvoid Publisher1::timer_callback()[m[K’:
+[2.572s] [01m[K/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/src/pubs_and_subs/src/publisher-1.cpp:23:69:[m[K [01;31m[Kerror: [m[Kexpression cannot be used as a function
+[2.572s]    23 |     message.data = "publisher-1-" (count % 2 == 0 ? "true" : "false"[01;31m[K)[m[K;
+[2.572s]       |                                                                     [01;31m[K^[m[K
+[4.450s] make[2]: *** [CMakeFiles/talker2.dir/build.make:63: CMakeFiles/talker2.dir/src/publisher-2.cpp.o] Error 1
+[4.451s] make[1]: *** [CMakeFiles/Makefile2:109: CMakeFiles/talker2.dir/all] Error 2
+[4.451s] make[1]: *** Waiting for unfinished jobs....
+[4.505s] make[2]: *** [CMakeFiles/talker1.dir/build.make:63: CMakeFiles/talker1.dir/src/publisher-1.cpp.o] Error 1
+[4.506s] make[1]: *** [CMakeFiles/Makefile2:136: CMakeFiles/talker1.dir/all] Error 2
+[5.085s] make[2]: *** [CMakeFiles/listener.dir/build.make:63: CMakeFiles/listener.dir/src/subscriber-main.cpp.o] Error 1
+[5.086s] make[1]: *** [CMakeFiles/Makefile2:82: CMakeFiles/listener.dir/all] Error 2
+[5.088s] make: *** [Makefile:141: all] Error 2
+[5.112s] Invoked command in '/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/build/pubs_and_subs' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/build/pubs_and_subs -- -j4 -l4

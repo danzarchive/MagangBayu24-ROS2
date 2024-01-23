@@ -1,0 +1,16 @@
+[0.074s] Invoking command in '/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/build/pubs_and_subs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/build/pubs_and_subs -- -j4 -l4
+[0.254s] [35m[1mScanning dependencies of target listener[0m
+[0.260s] make[2]: *** No rule to make target '/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/src/pubs_and_subs/src/main-subscriber.cpp', needed by 'CMakeFiles/listener.dir/src/main-subscriber.cpp.o'.  Stop.
+[0.264s] [35m[1mScanning dependencies of target talker2[0m
+[0.270s] make[1]: *** [CMakeFiles/Makefile2:82: CMakeFiles/listener.dir/all] Error 2
+[0.270s] make[1]: *** Waiting for unfinished jobs....
+[0.346s] [ 16%] [32mBuilding CXX object CMakeFiles/talker2.dir/src/publisher-2.cpp.o[0m
+[0.353s] [ 50%] Built target talker1
+[1.755s] [01m[K/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/src/pubs_and_subs/src/publisher-2.cpp:[m[K In constructor ‘[01m[KMyPublisher::MyPublisher()[m[K’:
+[1.755s] [01m[K/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/src/pubs_and_subs/src/publisher-2.cpp:15:38:[m[K [01;31m[Kerror: [m[Kunable to find numeric literal operator ‘[01m[Koperator""s[m[K’
+[1.755s]    15 |     timer_ = this->create_wall_timer([01;31m[K3s[m[K, std::bind(&MyPublisher::timer_callback, this));
+[1.756s]       |                                      [01;31m[K^~[m[K
+[2.429s] make[2]: *** [CMakeFiles/talker2.dir/build.make:63: CMakeFiles/talker2.dir/src/publisher-2.cpp.o] Error 1
+[2.429s] make[1]: *** [CMakeFiles/Makefile2:109: CMakeFiles/talker2.dir/all] Error 2
+[2.430s] make: *** [Makefile:141: all] Error 2
+[2.441s] Invoked command in '/home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/build/pubs_and_subs' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/danscarryus/InternRos2/MagangBayu24-ROS2/tugas2/build/pubs_and_subs -- -j4 -l4
